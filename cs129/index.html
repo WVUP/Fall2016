@@ -8,19 +8,45 @@
 	<style>
 		body {
 			background-color: silver;
+			margin:0;
+			padding:0;
 		}
 
 		h1 {
 			color:blue;
 		}
 
+		h1:hover
+		{
+			color:lime; 	
+		}
+
+
 		.text-green {
 			color:green;
 		}
 
+		/*Target elements with a class = "bigger-150"*/
+		.bigger-150
+		{
+			font-size: 150%;
+		}
+
+		/*Target elements with an id = "container"*/
+		#container {
+			width:900px;
+			margin: 0 auto;
+			background-color:white;
+		}
+
+		/*div {
+			border: 1px solid;
+		}*/
+
 	</style>
 
-	<div style="width:900px; margin:0 auto;">
+	<div id="container">
+
 
 		<header>
 			<h1>My header</h1>
@@ -33,7 +59,7 @@
 		<h1 class="text-green">Im different</h1>
 
 		<!-- Unordered list (bullet points) -->
-		<ul class="text-green">
+		<ul class="text-green bigger-150">
 			<li>First</li>
 			<li>Second</li>
 		</ul>
