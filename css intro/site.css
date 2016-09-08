@@ -28,7 +28,7 @@ ul.menu li:hover
 ul.menu.sub li{
 	background-color: red;
 }
-.comtainer{
+.container{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
