@@ -1,0 +1,41 @@
+body 
+{
+			 background-color: ghostwhite;
+}
+.text-center {
+	text-align: center;
+}
+
+.bold 
+{
+	font-weight: bold;
+}
+
+ul.list-inline li 
+{
+	display:inline;
+}
+ul.menu li 
+{
+	    background-color: #9dd2de;
+    padding: 5px 30px;
+    border: 1px solid;
+    cursor: pointer;
+}
+ul.menu li:hover
+{
+	background-color: lime !important;
+}
+
+
+ul.menu.sub li
+{
+	background-color: #9dd2de;
+}
+
+.container 
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
