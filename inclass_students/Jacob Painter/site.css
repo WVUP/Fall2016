@@ -1,0 +1,38 @@
+body {
+	background-color: ghostwhite
+		}
+
+.text-center {
+	text-align:center;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+ul.list-inline li{
+	display: inline;
+}
+
+ul.menu li{
+	background-color: silver;
+	padding: 5px 15px;
+	border: 2px solid #bfbfd6;
+}
+
+ul.menu li:hover
+/*the "!important" tag overrides the background color*/
+{
+	background-color: #696969 !important;
+	color:white;
+}
+
+ul.menu.sub li{
+	background-color: lightblue;
+}
+
+.container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
