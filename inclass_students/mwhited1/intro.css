@@ -1,0 +1,41 @@
+body{
+	background-color: white;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+ul.list-inline li{
+	display: inline;
+}
+
+ul.menu li{
+	background-color: silver;
+	padding: 10px;
+	border: 1px solid red;
+	cursor: pointer;
+
+}
+ul.menu li:hover {
+	background-color: green !important;
+	color: white;
+}
+
+ul.menu {
+	margin: 25px;
+}
+
+ul.menu.sub li{
+	background-color: blue;
+}
+/*centers out content for nicer viewing*/
+.container{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
