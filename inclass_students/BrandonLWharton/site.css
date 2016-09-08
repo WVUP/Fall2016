@@ -1,6 +1,18 @@
 
 body
-		{
-			background-color: silver;
+{
+	background-color: silver;
+	background-image: url(http://cdn.barstoolsports.com/wp-content/uploads/2016/08/09/man.png?84dbc0);
+	background-repeat: no-repeat;
 
-		}
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.text-bold
+{
+	font-weight: bold;
+}
