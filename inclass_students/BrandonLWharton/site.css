@@ -1,9 +1,11 @@
 
 body
 {
+
 	background-color: silver;
-	background-image: url(http://cdn.barstoolsports.com/wp-content/uploads/2016/08/09/man.png?84dbc0);
+	background-image: url();
 	background-repeat: no-repeat;
+	background-position: bottom;
 
 }
 
@@ -15,4 +17,40 @@ body
 .text-bold
 {
 	font-weight: bold;
+}
+
+.text-color
+{
+	color: purple;
+}
+
+.background-color
+{
+	background-color: lime;
+}
+
+ul.list-inline li
+{
+	display: inline;
+	background-color: lime;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+
+ul.menu li:hover
+{
+	background-color: black !important;
+	color: white;
+}
+
+ul.menu.sub li
+{
+	background-color: purple;
+}
+
+.container
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
