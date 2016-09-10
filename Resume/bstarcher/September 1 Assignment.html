@@ -7,7 +7,7 @@
 
 	<style>
 		body {
-			background-color: blue;
+			background-color: lightblue;
 			margin:0;
 			padding:0;
 			}
@@ -37,7 +37,24 @@
 				margin: 0 auto;
 				background-color: white;
 			}
+
+			.no-bullets {
+				list-style-type: none;
+			}
+
+			header {
+				margin-top: 10px;
+				margin-bottom: 20px;
+				background-color: #FFFFFF;
+				border-radius: 5px;
+				box-shadow: 12px 12px 12px #404040;
+				text-align: center;
+			}
 			
+			.underline {
+				text-decoration: underline;
+			}
+
 	</style>
 
 	<div id="container">
@@ -53,19 +70,20 @@
 	<h1 class="text-green">Schools and Jobs</h1>
 	
 	<!-- Unordered list (bullet points) -->
-	<ul class="text-green bigger-150">
-		<li>Graduated High School</li>
-		<ol>
-				<li>Parkersburg South High School. 2011-2015</li>
-			</ol>
-		<li>Currently in my second year of college</li>
-		<ol>
-				<li>WVU-P. 2015-Now</li>
-			</ol>
-		<li>Summer job for four years in a row</li>
-		<ol>
-				<li>Lifeguard at DuPont Pool. Summers of 2013-2016</li>
-			</ol>
+	<ul class="text-green bigger-150 no-bullets">
+		
+		<li class="underline">Graduated High School</li>
+		
+		<li>Parkersburg South High School. 2011-2015</li>
+			
+		<li class="underline">Currently in my second year of college</li>
+		
+		<li>WVU-P. 2015-Now</li>
+			
+		<li class="underline">Summer job for four years in a row</li>
+		
+		<li>Lifeguard at DuPont Pool. Summers of 2013-2016</li>
+			
 	</ul>
 	
 	<a href="http://www.wvup.edu/"> Click To Go To WVU-P</a>
@@ -92,17 +110,19 @@
 	</div>
 	
 	<nav>
-		<u1 class="text-green bigger-150">
-		<ul> 
-			<li><span>Elementary</span></li>
-			<ol>
-				<li>Franklin Elementary. 2000-2002</li>
-				<li>Gihon Elementary. 2002-2008</li>
-			</ol>
-			<li><span>Middle School</span></li>
-			<ol>
-				<li>Edison Middle School. 2008-2011</li>
-			</ol>
+		<ul class="text-green bigger-150 no-bullets">
+		 
+			<li class="underline"><span>Elementary</span></li>
+			
+			<li>Franklin Elementary. 2000-2002</li>
+			<li>Gihon Elementary. 2002-2008</li>
+			
+			<li class="underline"><span>Middle School</span></li>
+			
+			<li>Edison Middle School. 2008-2011</li>
+			
+		</ul>
+	</header>
 	<!-- Added this paragragh for this reason-->
 	<p>
 		
