@@ -1,0 +1,44 @@
+body {
+	background-color: teal;
+		}
+
+.text-center {
+	text-align:center;
+}
+
+ul.list-inline li{
+	display: inline;
+}
+
+ul.menu li{
+	background-color: white;
+	padding: 25px 60px;
+	border: 10px solid silver;
+}
+
+ul.menu li:hover
+{
+	background-color:teal;
+	color:white;
+	text-align:center;
+}
+
+ul.menu {
+	text-align:center;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+h5 {
+	text-align:center;
+}
+
+h1:hover {
+	color:purple;
+}
