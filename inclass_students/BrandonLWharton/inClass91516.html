@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+		table
+		{
+			width:100%;
+			border: 5px solid crimson;
+		}
+
+		table caption
+		{
+			font-size: 130%;
+			color: crimson;
+			font-family: Walkway Black;
+		}
+
+		tr:not(:first-child):hover
+		{
+			background-color: red !important;
+		}
+
+		tr:nth-child(even)
+		{
+			background: grey;
+		}
+
+		table th
+		{
+			color: crimson;
+			
+		}
+
+		table th, td
+		{
+			border: .5px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+	<h1>Tables</h1>
+		<table>
+			<caption>
+				Hit List
+			</caption>
+			<tr>
+				<th>First Name</th>
+				<th>Middle Name</th>
+				<th>Last Name</th>
+				<th>Title</th>
+			</tr>
+
+			<tr>
+				<td>Brandon</td>
+				<td>Lee</td>
+				<td>Wharton</td>
+				<td>Lord</td>
+			</tr>
+
+			<tr>
+				<td>Cecil</td>
+				<td>B.</td>
+				<td>Demented</td>
+				<td>Director</td>
+
+			</tr>
+
+			<tr>
+				<td>Donald</td>
+				<td>J.</td>
+				<td>Duck</td>
+				<td>Sailor</td>
+
+			</tr>
+		</table>
+
+</body>
+</html>
