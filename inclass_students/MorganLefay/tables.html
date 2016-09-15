@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>table</title>
+</head>
+<body>
+
+<style>
+	table
+	{
+		width:100%; 
+		}
+		table caption
+		{
+			font-size:130%;
+			color:silver;
+		}
+
+		tr:not(:first-child):hover
+	{ 
+	background-color: silver 
+	!important; 
+	 }
+		tr:nth-child(even) {
+			background: ghostwhite;
+		}
+
+	table, th, td {
+		border: 1px solid silver;
+		border-collapse: collapse;
+	
+	}
+	table th 
+	{
+		color:tomato;
+	}
+</style>
+
+	<h1>Tables</h1>
+
+	<table>
+		<caption> 
+		People
+		</caption>
+	<tr>
+		<th>First Name</th>
+		<th>Middle Name</th>
+		<th>Last Name</th>
+	</tr>
+
+	<tr> 
+	   <td>Morgan</td>
+	   <td>Lefay</td>
+	   <td>Bennett</td>
+	</tr>
+	<tr>
+		<td>Tim</td>
+		<td>And</td>
+		<td>Burton</td>
+	</tr>
+
+<tr> 
+	   <td>Brandon</td>
+	   <td>Albert</td>
+	   <td>Bennett</td>
+	</tr>
+
+	<tr> 
+	   <td>Chunky</td>
+	   <td>Dog</td>
+	   <td>Bennett</td>
+	</tr>
+
+   </table>
+
+</body>
+</html>
