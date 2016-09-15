@@ -1,0 +1,52 @@
+	body{
+
+		background-color: silver;
+		margin: 0;
+		padding: 0;	
+	}
+
+	p{
+		text-align: center;
+		color: blue;
+	}
+
+	h1{
+		color: white;
+	}
+
+	h2{
+
+		color: white;
+	}
+
+	
+
+	ul.list-inline li{
+		display: inline-block;
+		list-style: none;
+		text-align: center;
+
+	}
+
+	ul.menu li{
+		
+		background-color: white;
+		padding: 10px;
+		border: 1px solid blue;
+		cursor: pointer;
+
+	}
+
+
+
+	ul.menu li:hover {
+		background-color: grey !important;
+		color: white;
+	}
+
+	.text-center{
+
+		text-align: center;
+	}
+
+
