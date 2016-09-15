@@ -1,0 +1,71 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tables</title>
+</head>
+<body>
+
+	<style>
+		table
+		{
+			width: 100%;
+		}
+
+		table caption
+		{
+			font-size: 130%;
+			color: silver;
+		}
+
+		tr:not(:first-child):hover
+		{
+			background-color: silver
+			!important;
+		}
+
+		tr:nth-child(even)
+		{
+			background: ghostwhite;
+		}
+
+		table, th, td
+		{
+			border: 1px solid silver;
+			border-collapse: collapse;
+		}
+
+		table th
+		{
+			color: tomato;
+		}
+	</style>
+
+	<h1>Tables</h1>
+
+	<table style="width:100%">
+		<tr>
+			<th>First Name</th>
+			<th>Middle Name</th>
+			<th>Last Name</th>
+		</tr>
+
+		<tr>
+			<td>Brady</td>
+			<td>Jay</td>
+			<td>Starcher</td>
+		</tr>
+
+		<tr>
+			<td>Billy Bob</td>
+			<td>Joe</td>
+			<td>Smith</td>
+		</tr>
+
+		<tr>
+			<td>Larry</td>
+			<td>Fiddle</td>
+			<td>Johnson</td>
+		</tr>
+	</table>
+
+</body>

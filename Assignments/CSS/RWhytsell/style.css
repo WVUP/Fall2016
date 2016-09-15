@@ -78,7 +78,7 @@ textarea {
     resize: none;
 }
 
-input[type=button]
+input[type=submit]
 {
     background-color: #4CAF50;
     border: none;
