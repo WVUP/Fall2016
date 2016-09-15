@@ -48,7 +48,7 @@ input[type=text]
 
 input[type=text]:focus
 {
-  width: 73%;
+  width: 70%;
   border: 3px solid #555;
 }
 
@@ -73,4 +73,22 @@ input[type=button]
     text-decoration: none;
     margin: 40px 20px;
     cursor: pointer;
+}
+.fading_line
+{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#bebebe));
+}
+.text_center
+{
+  text-align: center;
+}
+.text_center_block
+{
+  text-align: center;
+  margin: 10px 60px 10px 60px;
 }
