@@ -1,5 +1,5 @@
 body {
-			background-color: ghostwhite
+			background-color: lightblue
 		}
 		
 .text-center {
@@ -33,7 +33,7 @@ ul.menu li:hover
 }
 
 ul.menu.sub li{
-	background-color: red;
+	background-color: orange;
 }
 
 .container{
