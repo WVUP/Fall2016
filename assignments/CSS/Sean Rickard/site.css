@@ -1,0 +1,25 @@
+body
+{
+	background-color: silver;
+}
+.text-center	
+{
+	text-align:center;
+}
+ul.list-inline li{
+	display: inline;
+}
+ul.menu li:hover
+{
+	background-color: #696969 !important;
+	color: white;
+}
+#container{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
