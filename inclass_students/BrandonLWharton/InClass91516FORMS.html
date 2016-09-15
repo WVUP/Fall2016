@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>FORMS!</h1>
+
+	<form method="POST" 
+	action="mailto:bwharton@wvup.edu">
+
+		<input type="text" 
+		placeholder="Enter Name..." ="" 
+		required="required">
+
+		<input type="button" 
+		value="isButton" 
+		onclick="alert('Stop That!')"
+		required="required">
+
+		<br><br />
+
+		<input type="checkbox" 
+		id="redColor" 
+		name="color" 
+		value="red"> 
+		<label for="redColor"> Red </label>
+
+		<br><br />
+
+		<input type="date" name="birthday">
+
+		<br><br />
+
+		<input type="datetime" name="datetime"
+		placeholder="date/time">
+
+		<br><br />
+
+		<label for="userEmail">User Email</label>
+		<input type="email" 
+		id="userEmail" 
+		name="email"
+		placeholder="email"
+		required="required">
+
+		<br><br />
+
+		<input type="file" name="upload">
+
+		<br><br />
+
+		<input type="number" name="age" 
+		min="20"
+		max="100"
+		placeholder="age">
+
+		<br><br />
+
+		<input type="password" name="pword"
+		placeholder="password">
+
+		<br><br />
+
+		<textarea name="txt" 
+		id="myText"
+		cols="30"
+		rows="10"></textarea>
+
+		<br><br />
+
+		<select name="mySel"
+		id="mySel"
+		<option value="Red" selected>Red</option>
+		<option value="Blue">Blue</option>
+		<option value="Green">Green</option>
+		<option value="Black">Black</option>
+		</select>
+
+		<br><br />
+
+		<select name="mulSel"
+		id="mulSel"
+		multiple="">
+		<option value="Gangrel">Gangrel</option>
+		<option value="Nosferatu">Nosferatu</option>
+		<option value="Tremere" selected>Tremere</option>
+		<option></option>
+		</select>
+
+		<br><br />
+
+		<input type="submit" name="Submit">
+
+	</form>
+
+	
+
+
+
+
+</body>
+</html>
