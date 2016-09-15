@@ -1,0 +1,66 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+
+	<h1>Forms</h1>
+	
+	<form method="POST" action="mailto:afreeland@gmail.com">
+
+		<input type="text" placeholder="Enter Name...">
+
+		<input type="button" value="My Button" onclick="alert('Hello')">
+		
+		<br /><br />
+
+		<input type="checkbox" id="redColor" name="color" value="red">
+		<label for="redColor">Red</label> 
+
+		<br /><br />
+
+		<input type="date" name="birthday">
+		<br /><br />
+		<input type="datetime" name="datetime">
+		<br /><br />
+		<label for="userEmail">Email</label>
+		<input type="email" id="userEmail" name="email" placeholder="sam@example.com" 
+		required>
+
+		<br /><br />
+		<input type="file" name="upload">
+
+		<br /><br />
+		<input type="number" name="age" min="20" max="105">
+
+		<br /><br />
+		<input type="password" name="pword">
+		
+		
+		
+		<br /><br />
+		<textarea name="txt" id="mytext" cols="30" rows="10"></textarea>
+
+		<br /><br />
+		<select name="mySel" id="mySel">
+			<option value="red">Red</option>
+			<option value="blue" selected>Blue</option>
+			<option value="green">Green</option>
+		</select>
+
+		<br /><br />
+		<select name="mulSel" id="mulSel" multiple>
+			<option value="red">Red</option>
+			<option value="blue" selected>Blue</option>
+			<option value="green">Green</option>
+		</select>
+
+
+		<br /><br />
+		<input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>
