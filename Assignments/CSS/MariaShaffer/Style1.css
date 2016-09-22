@@ -1,0 +1,28 @@
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/236x/97/51/8b/97518b5e9a3818642f537b78ca3fb505.jpg), url(https://i.ytimg.com/vi/T6Q-pYeEEPE/maxresdefault.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 600px 1000px, cover;
+	background-position: center top, left top;
+	
+}
+.text-center{
+	text-align: center;
+	margin: 0px 0px
+	padding: 0px;
+}
+.text-center2{
+	text-align: center;
+}
+ul.list-inline li{
+	display: inline;
+}
+ul.menu li{
+	background-color: #00c8ff;
+		padding: 5px 15px;
+		border: 1px solid black;
+		cursor: pointer;
+}
+ul.menu li:hover{
+background color: green;
+		color:#f7f88f;
+}
