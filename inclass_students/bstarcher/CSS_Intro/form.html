@@ -1,0 +1,120 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+
+	<h1>Forms</h1>
+
+	<style>
+		body {
+			background-color: white;
+			margin:0;
+			padding:0;
+			}
+			
+			h1 {
+				color: black;
+			}
+			
+			h1:hover 
+			{
+				color: black;
+			}
+			
+			.text-green {
+				color:#c69d27;
+			}
+			
+			/*Target elements with an id = "container"*/
+			.smaller-50
+			{
+				font-size: 50%;
+			}
+			
+			/*Target elements with an id = "container"*/
+			#container {
+				width: 900px;
+				margin: 0 auto;
+				background-color: white;
+			}
+
+			.no-bullets {
+				list-style-type: none;
+			}
+
+			header {
+				margin-top: 10px;
+				margin-bottom: 20px;
+				background-color: #FFFFFF;
+				border-radius: 5px;
+				box-shadow: 12px 12px 12px #404040;
+				text-align: center;
+			}
+			
+			.underline {
+				text-decoration: underline;
+			}
+
+	</style>
+
+	<form method="POST" action="
+	mailto:bradystarcher@hotmail.com">
+
+
+		<input type="text" placeholder="Enter Name...">
+
+		<input type="button" value=""
+		onclick="alert('Hello')">
+
+		<br /><br />
+
+		<h1 class=".smaller">Favorite Color</h1>
+
+		<input type="checkbox" id="redColor" name="color" value= "red"> Red
+
+		<input type="checkbox" id="blueColor" name="color" value= "blue"> Blue
+
+		<input type="checkbox" id="yellowColor" name="color" value= "yellow"> Yellow 
+
+		<br /><br />
+
+		<input type="date" name="birthday">
+		<br /><br />
+		<input type="datetime" name="datetime"> Time
+		<br /><br />
+		<label for="userEmail">Email</label>
+		<input type="email" name="email"
+		placeholder="example@email.com" required>
+
+		<br /><br />
+		<input type="file" name="Upload">
+
+		<br /><br />
+		<input type="number" name="age" min="20" 
+		max="105"> Your Age
+
+		<br /><br />
+		<input type="password" name="pword" placeholder="Password"> (Min 8 char.)
+
+		<br /><br />
+
+		<textarea name="txt" id="mytext" cols="30
+		" rows="10"></textarea>
+
+		<br /><br />
+
+		<select name="mulSel" id="mulSel" multiple placeholder="Font Color">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>	
+			<option value="yellow">Yellow</option>	
+		</select>
+
+		<br /><br />
+		<input type="submit" name="Submit">
+
+	</form>
+
+</body>
+</html>
