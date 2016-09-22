@@ -1,0 +1,31 @@
+	body {
+		background-color: skyblue;
+	}
+
+	div {
+		text-align: center;
+		background-color: white;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding: .5px;
+	}
+
+	ul.Inline li {
+		display:inline;
+	}
+
+	ul.menu li {
+		padding: 5px 60px;
+		margin: 150px;
+		cursor: pointer;
+	}
+
+	ul.menu li:hover {
+		background-color:gray;
+		color:white;
+	}
+
+	p.margin {
+		margin-left: 220px;
+		margin-right: 220px;
+	}

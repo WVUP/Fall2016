@@ -1,0 +1,18 @@
+.center_text
+{
+  text-align: center;
+}
+.white_text
+{
+  color: white;
+}
+a.secret:hover
+{
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+.WalkWay_Font
+{
+  font-family: 'Gudea', sans-serif;
+}

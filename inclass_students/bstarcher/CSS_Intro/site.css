@@ -1,0 +1,43 @@
+body {
+			background-color: lightblue
+		}
+		
+.text-center {
+	text-align:center;
+}
+
+.bold 
+{
+	font-weight:bold;
+}
+
+ul.list-inline li{
+	display: inline;
+}
+ul.menu li{
+	background-color: #cdf1ef;
+	padding: 5px 20px;
+	border: 1px solid: #bfbfd6;
+	cursor: pointer;
+}
+
+ul.menu
+{
+	margin:25px;
+}
+
+ul.menu li:hover
+{
+	background-color: #696969;
+	color:white;
+}
+
+ul.menu.sub li{
+	background-color: orange;
+}
+
+.container{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}

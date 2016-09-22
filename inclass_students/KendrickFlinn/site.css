@@ -1,0 +1,39 @@
+body {
+ 			background-color: silver;
+		}
+
+.text-center {
+	text-align: center;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+ul.list-inline li{
+	display: inline;
+}
+ul.menu li {
+	background-color: gold;
+	padding:5px 15px;
+	border:1px solid blue;
+	cursor: pointer;
+}
+
+/*The important overrides the rule giving the background color green to the first option list*/
+ul.menu li:hover
+{
+	background-color:green !important; 
+	color:white;
+}
+
+ul.menu.sub li {
+	background-color: red;
+}
+
+.container{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}

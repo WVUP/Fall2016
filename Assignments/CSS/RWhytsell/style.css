@@ -1,0 +1,108 @@
+#Nav-Bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.current {
+  background-color: #bebebe;
+}
+
+.ContactDiv
+{
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 650px;
+}
+
+input[type=text]
+{
+    width: 24%;
+    padding: 12px 20px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=email]
+{
+    width: 24%;
+    padding: 12px 20px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=email]:focus
+{
+  width: 70%;
+  border: 3px solid #555;
+}
+
+input[type=text]:focus
+{
+  width: 70%;
+  border: 3px solid #555;
+}
+
+textarea {
+    width: 99%;
+    height: 300px;
+    padding: 12px 20px;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=submit]
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 40px 20px;
+    cursor: pointer;
+}
+.fading_line
+{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#bebebe));
+}
+.text_center
+{
+  text-align: center;
+}
+.text_center_block
+{
+  text-align: center;
+  margin: 10px 60px 10px 60px;
+}

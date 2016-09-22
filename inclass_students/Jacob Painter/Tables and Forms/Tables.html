@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tables</title>
+</head>
+<body>
+
+<style>
+	table
+	{
+		width:100%;
+		border: 1px solid silver;
+		border-collapse: collapse;
+	}
+
+	table, th, td {
+		border: 1px solid silver;
+	}
+
+	table th 
+	{
+		color:tomato;
+	}
+
+	table caption {
+		font-size:130%;
+		color:silver;
+	}
+
+	tr:nth-child(even) {
+		background:ghostwhite;
+	}
+/*/*tr:not(first-child):hover keeps the "Header Row" from* having the "hover" element./*/
+	tr:not(:first-child):hover {
+		background-color: lightblue
+		!important
+	}
+
+</style>
+
+<h1>Tables</h1>
+
+<table style="width:100%;">
+	<caption>
+		People
+	</caption>
+	<tr>
+		<th>First Name</th>
+		<th>Middle Name</th>
+		<th>Last Name</th>
+	</tr>
+
+	<tr>
+		<td>Jacob</td>
+		<td>Scott</td>
+		<td>Painter</td>
+	</tr>
+
+	<tr>
+		<td>Bert</td>
+		<td>And</td>
+		<td>Ernie</td>
+	</tr>
+
+		<tr>
+		<td>Bert</td>
+		<td>And</td>
+		<td>Ernie</td>
+	</tr>
+</table>
+
+</body>
+</html>
