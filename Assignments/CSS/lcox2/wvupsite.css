@@ -110,3 +110,33 @@ body {font-family: Verdana, sans-serif;}
     background: gold;
     color: white !important
 }
+#sidebar_icon{
+    background: url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
+    width: 220px;
+    min-height: 800px;
+    overflow: visible;
+    position: absolute;
+}
+#left_sidebar {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0;
+    min-height: 800px;
+    overflow:hidden;
+}
+#wv_logo {
+    display: none;
+    position: fixed;
+    background: url(images/bell_graphic.gif) 0 0 no-repeat;
+    width: 220px;
+    height: 250px;
+    bottom: 10%;
+}
+#sidebar_widgets {
+    width: 220px;
+    min-height: 800px;
+    overflow: visible;
+    position: absolute;
+    top: 45px;
+}
