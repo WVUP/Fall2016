@@ -6,6 +6,10 @@ html, body
 {
     background:#111683;
 }
+ul.main-menu
+{
+    margin-bottom:0;
+}
 ul.main-menu li
 {
  color:gold;
@@ -15,5 +19,9 @@ ul.main-menu li
 ul.main-menu li:hover
 {
     color:white;
-    background-color: cadetblue;
+    background-color: cadetblue !important;
+}
+ul.main-menu li:first-child{
+    background-color: gold;
+    color:white;
 }
