@@ -1,0 +1,19 @@
+html, body
+{
+    background-color: #9CBCDA
+}
+.main-nav
+{
+    background:#111683;
+}
+ul.main-menu li
+{
+ color:gold;
+ padding: 10px 15px;
+ cursor:pointer;
+}
+ul.main-menu li:hover
+{
+    color:white;
+    background-color: cadetblue;
+}
