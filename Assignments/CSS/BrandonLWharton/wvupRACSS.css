@@ -1,0 +1,23 @@
+
+
+/*.top, .bottom 
+{
+    opacity: 1;
+    position: absolute;
+    margin:auto;
+    top:485px;
+    right:0;
+    bottom:0;
+    left:500px;
+}*/ //this was a failed experiment
+
+/*.top-button li
+{
+	color: white;
+}*/ //unused at the moment
+
+.left-side 
+{
+	float: left;
+	padding-top: 0;
+}
