@@ -8,7 +8,12 @@ html, body
     background:#111683;
 }
 
-ul.main-menu li
+ul.main-menu 
+{
+  margin-bottom: 0;
+}
+
+ul.main-menu li 
 {
     color:#E3B11F;
     padding: 10px 15px;
@@ -26,3 +31,9 @@ ul.main-menu li:first-child
     background-color:#E3B11F;
     color:white;
 }
+
+.content-wrapper
+{
+	background-color: white;
+}
+

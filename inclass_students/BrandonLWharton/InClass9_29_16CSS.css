@@ -1,0 +1,56 @@
+html, body
+{
+	background-color: #9CBCDA;
+}
+
+
+
+.main-nav
+{
+	background-color: #111683;
+	
+}
+
+ul.main-menu 
+{
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+ul.main-menu li
+{
+	color: #E3B11F;
+	cursor: pointer;
+	padding: 10px 15px
+}
+
+ul.main-menu li:hover
+{
+	background-color: #7d7faf;
+	color: white;
+
+}
+
+ul.main-menu li:first-child
+{
+	background-color: #E3B11F;
+	color: white;
+}
+
+.content-wrapper
+{
+	background-color: white;
+}
+
+.left-nav
+{
+	height: 1000px;
+	background: linear-gradient(to bottom, #e3b11f 0%, #e0ce90 100%);
+}
+
+.feature-bar
+{
+	background-color: blue;
+	border-radius: 5px;
+	height: 500px
+}
