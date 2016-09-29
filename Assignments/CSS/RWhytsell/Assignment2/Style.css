@@ -20,7 +20,16 @@
     border: none;
     height: 45px;
     line-height: 40px;
-    background: transparent
+    background: transparent;
+}
+
+li a {
+  color: #E3B11F;
+}
+
+li:hover {
+      background-color: #3B44AD;
+      color: white;
 }
 
 .Active {
