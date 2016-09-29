@@ -9,12 +9,14 @@ html, body
 ul.main-menu
 {
     margin-bottom:0;
+    margin-left:0;
 }
 ul.main-menu li
 {
  color:gold;
  padding: 10px 15px;
  cursor:pointer;
+
 }
 ul.main-menu li:hover
 {
@@ -24,4 +26,20 @@ ul.main-menu li:hover
 ul.main-menu li:first-child{
     background-color: gold;
     color:white;
+}
+.content-wrapper
+{
+    background-color: white;
+    
+}
+.left-nav
+{
+    height:100%;
+    background: linear-gradient(to bottom, gold 0%, lightyellow 100%)
+}
+.feature-bar
+{
+    background-color:blue;
+    border-radius: 5px;
+    height: 500%;
 }
