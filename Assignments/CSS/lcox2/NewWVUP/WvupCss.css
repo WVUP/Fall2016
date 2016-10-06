@@ -137,4 +137,9 @@ ul.sec-menu li:hover
     background-color: darkblue;
     position: absolute;
     z-index: 9;
+    display:none;
+    top:40px;
+}
+.main-menu li:hover{
+    display: block;
 }
