@@ -34,7 +34,7 @@ ul.main-menu li:first-child{
 }
 .left-nav
 {
-    height:100%;
+    height:2000px;
     background: linear-gradient(to bottom, gold 0%, lightyellow 100%)
 }
 .feature-bar
