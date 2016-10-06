@@ -1,0 +1,134 @@
+html, body
+	{
+		background-color: #9CBCDA
+	}
+	.main-nav
+	{
+		background-color: #111683;
+	}
+
+
+	ul.main-menu
+	{
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	ul.main-menu li 
+	{
+		color: #E3B11F;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
+
+	ul.main-menu li:hover
+	{ 
+		color: white;
+		background-color: #151cbb;
+	}
+
+	ul.main-menu li:first-child
+	{
+		background-color: #E3B11F;
+		color:#111683;
+	}
+
+	ul.main-menu li:first-child:hover
+	{
+		color: white;
+		background-color: #151cbb;
+	}
+
+	.content-wrapper
+	{
+		background: white;
+	}
+
+	.left-nav
+	{
+    	height: 100%;
+    	background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+	}
+
+	.feature-bar 
+	{
+		background-color: #5493ce;
+		border-radius: 5px;
+		height:500px;
+		padding: 25px;
+		margin-right: auto;
+		margin-left: -45px;
+		margin-top: 12px;
+		margin-bottom: auto;
+		text-align: center;
+	}
+
+	.left-nav-list li:hover 
+	{
+		color: white;
+		background-color: #151cbb;
+	}
+
+	div.image 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2015/01/foundation_web_button.gif);
+	}
+
+	div.image2 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2016/06/virtual-tour-update.png);
+	}
+
+	div.image3 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2016/01/chronicle_logo.gif);
+	}
+
+	div.image4 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2014/06/wheelchair_icon.gif);
+	}
+
+	.search-text
+	{
+		text-align: right;
+	}
+
+	.align-center 
+	{
+		width: 500px;
+		display: block;
+		margin-left: 2px;
+		margin-right: auto;
+		margin-top: 900px;
+		margin-top: 20px;
+	}
+
+	.middle-pic
+	{
+		margin-left: 25px;
+	}
+
+	.right-pic
+	{
+		margin-left: 25px;
+	}
+
+	.news-1 
+	{
+		color: #111683;
+		text-align: center;
+		font-size: 125%;
+	}
+
+	.news-more
+	{
+		color: #111683;
+		text-align: left;
+		font-size: 125%;
+	}
+
+	.news-pic1
+	{
+		margin-left: 5px;
+	}
