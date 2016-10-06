@@ -6,57 +6,45 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="site.css">
 </head>
-<style>
-	#Image1 {
-		background-image: url(http://www.wvup.edu/wp-content/gallery/home_headers/fb-cover-midstart-classes3.png); background-repeat: no-repeat;
-	}
-	#Image2 {
-		background-image: url(http://www.wvup.edu/wp-content/themes/wvup/images/wvuplogo.png); background-repeat: no-repeat;
-	}
-	#Sidebar {
-		width: 220px;
-		min-height: 800px;
-		overflow: visible;
-		top: 45px
-		padding:0px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-</style>
 <body>
-<div class="container"></div>
-	<div style="background-color: blue;">
- 			<ul class="list-unstyled list-inline">
- 				<li>
- 				<div class="btn btn-warning">Home</div></li>
- 				<li>
- 				<div class="btn btn-warning">About</div></li>
- 				<li>
- 				<div class="btn btn-warning">Academics</div></li>
- 				<li>
- 				<div class="btn btn-warning">Current Students</div></li>
- 			</ul>
- 		</div>
- 	<div id="Sidebarr" class="col-xs-12 col-md-2 grid-left col-300" style="background-color: yellow">
- 		<ul class="list-unstyled">
- 			<li>
- 				<div>Directions to Campus</div>
- 			</li>
- 			<li>
- 				<div>Employment Opportunities</div>
- 			</li>
- 			<li>
- 				<div>General Finical Aid Information</div>
- 			</li>
- 			<li>
- 				<div>Child Care Services</div>
- 			</li>
- 		</ul>
+<div class="container">
+	<div calss="row">
+		<div class="main-nav">
+			<ul class="list-unstyled list-inline main-menu" style="margin-bottom: 0">
+				<li>Home</li>
+				<li>About</li>
+				<li>Academics</li>
+				<li>Current Students</li>
+				<li>Future Students</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="container content-wrapper">
+	<div class="row"></div>
+	<div class="col-xs-3 left-nav">
+	<div class="left-bell"></div>
+		<ul class="list-unstyled">
+			<li>Directions to Campus</li>
+			<li>Employment Opportunties</li>
+			<li>General Financial Aid</li>
 
- 	</div>
- 		<div id="Image1" class= "col-xs-12 col-md-6" style="background-image: url(http://www.wvup.edu/wp-content/gallery/home_headers/fb-cover-midstart-classes3.png);">
- 			<div id="Image2"></div>
- 		</div>
+		</ul>
+	</div>
+	<div class="col-xs-9" style="padding: 0;">
+		<div style="height: 350px; background-image: url(http://www.wvup.edu/wp-content/gallery/home_headers/fb-cover-midstart-classes3.png);">
+		</div>
+		<div class="row" style="margin-top: -80px;">
+		<div class="col-xs-9" style="margin-top: 80px;"><img src="http://www.wvup.edu/wp-content/uploads/2016/08/Hub-Button-2016_blue.jpg"></div>
+		<div class="col-xs-3 feature-bar">Calendar
+			<input type="date" name="birthday">
+			</div>	
+		</div>
+	</div>
+</div>
+
+
 </body>
 </html>
