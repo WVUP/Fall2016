@@ -95,3 +95,35 @@ ul.Sidebar_list li:hover
     color:white;
     background:#111683;
 }
+
+.sub-nav
+{
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    display: none;
+    top:40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main-menu li:hover .sub-nav
+{
+    display:block;
+}
+
+.calander
+{
+    background-color: #89b4dd;
+    border: 1px solid #111683;
+    margin-left: 7.5%;
+    margin-top: 43px;
+    font-size:small;
+}
+
+.calandersize
+{
+    padding: 5px;
+}
