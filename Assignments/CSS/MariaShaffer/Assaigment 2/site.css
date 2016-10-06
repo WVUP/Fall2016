@@ -1,0 +1,50 @@
+html body {
+	background-color: #9CBCDA;
+}
+.main-nav {
+	background: #111683;
+}
+ul.mainmenu{
+	margin-bottom: 0px;
+	padding: 0;
+}
+ul.main-menu li{
+	color: #e3b11f;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+ul.main-menu li:hover{
+	color: white;
+	background-color: #4276ea !important;
+}
+
+ul.main-menu li:first-child{
+	background-color: #e3b11f;
+	color: white;
+}
+.content-wrapper{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 57px;
+	padding-right: 25px
+}
+
+.left-bell {
+	position: fixed;
+	background-image: url(http://www.wvup.edu/wp-content/themes/wvup/images/bell_graphic.gif);
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 250px;
+	bottom: 10%;
+	opacity: 0.5;
+}
+.left-nav{
+	line-height: 1.5;
+	height: 1000px;
+	background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+}
+.feature-bar{
+	background-color: blue;
+	border-radius: 5px;
+	height:500px;
+}
