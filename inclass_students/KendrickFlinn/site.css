@@ -21,7 +21,7 @@ ul.menu li {
 	cursor: pointer;
 }
 
-/*The important overrides the rule giving the background color green to the first option list*/
+/*The important overrides the rule giving the background color green only to the first option list*/
 ul.menu li:hover
 {
 	background-color:green !important; 
