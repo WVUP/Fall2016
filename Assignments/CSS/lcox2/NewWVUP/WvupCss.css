@@ -39,10 +39,11 @@ ul.main-menu li:first-child{
 }
 .feature-bar
 {
-    background-color:blue;
+    background-color:#5392ce;
     border-radius: 5px;
-    height: 500%;
+    height:500px;
 }
+
 /* Month header */
 .month {
     padding: 70px 25px;
@@ -123,4 +124,17 @@ ul.sec-menu li:hover
 {
     color:white;
     background-color: cadetblue !important;
+}
+.sidebar_icon{
+    background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
+    height:350px;
+    width:220px;
+    z-index: 1;
+}
+.sub-nav{
+    height: 450px;
+    width:100%;
+    background-color: darkblue;
+    position: absolute;
+    z-index: 9;
 }
