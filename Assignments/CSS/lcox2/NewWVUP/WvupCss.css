@@ -112,3 +112,15 @@ ul.main-menu li:first-child{
     background: gold;
     color: white !important
 }
+ul.sec-menu li
+{
+ color:blue;
+ padding: 10px 15px;
+ cursor:pointer;
+
+}
+ul.sec-menu li:hover
+{
+    color:white;
+    background-color: cadetblue !important;
+}
