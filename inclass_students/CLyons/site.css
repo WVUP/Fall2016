@@ -1,0 +1,42 @@
+body {
+	background-color: ghostwhite;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+ul.list-inline li{
+	display:inline;
+}
+ul.menu li{
+	background-color: #cdf1ef;
+	padding: 10px 30px;
+	border: 1px solid #bfbfd6;
+	cursor: pointer;
+}
+
+ul.menu
+{
+	margin:25px;
+}
+
+ul.menu li:hover
+{
+	background-color: #696969 !important;
+	color:white;
+}
+
+ul.menu.sub li{
+	background-color: red;
+}
+/*Centers our content for nicer viewing*/
+.container{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}

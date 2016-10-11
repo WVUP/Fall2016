@@ -8,14 +8,6 @@ html, body
     background:#111683;
 }
 
-<<<<<<< HEAD
-ul.main-menu 
-{
-  margin-bottom: 0;
-}
-
-ul.main-menu li 
-=======
 ul.main-menu
 {
     margin-bottom:0;
@@ -23,7 +15,6 @@ ul.main-menu
 }
 
 ul.main-menu > li
->>>>>>> master
 {
     color:#E3B11F;
     padding: 10px 15px;
@@ -44,11 +35,6 @@ ul.main-menu li:first-child
 
 .content-wrapper
 {
-<<<<<<< HEAD
-	background-color: white;
-}
-
-=======
     background: white;
 }
 
@@ -89,4 +75,3 @@ a
 {
     color: #111683;
 }
->>>>>>> master

@@ -1,0 +1,213 @@
+html, body
+	{
+		background-color: #9CBCDA
+	}
+	.main-nav
+	{
+		background: linear-gradient(to bottom, #4651c9 0%,#111683 90%);
+	}
+
+
+	ul.main-menu
+	{
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	ul.main-menu li 
+	{
+		color: #E3B11F;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
+
+	ul.main-menu li:hover
+	{ 
+		color: white;
+		background-color: #151cbb;
+	}
+
+	ul.main-menu li:first-child
+	{
+		background-color: #E3B11F;
+		color:#111683;
+	}
+
+	ul.main-menu li:first-child:hover
+	{
+		color: white;
+		background-color: #151cbb;
+	}
+
+	.content-wrapper
+	{
+		background: white;
+	}
+
+	.left-nav
+	{
+    	height: 100%;
+    	background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+	}
+
+	.feature-bar 
+	{
+		background-color: #5493ce;
+		border-radius: 5px;
+		height:500px;
+		padding: 25px;
+		margin-right: auto;
+		margin-left: -45px;
+		margin-top: 12px;
+		margin-bottom: auto;
+		text-align: center;
+	}
+
+	.left-nav-list li:hover 
+	{
+		color: white;
+		background-color: #151cbb;
+	}
+
+	div.image 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2015/01/foundation_web_button.gif);
+	}
+
+	div.image2 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2016/06/virtual-tour-update.png);
+	}
+
+	div.image3 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2016/01/chronicle_logo.gif);
+	}
+
+	div.image4 
+	{
+		content: url(http://www.wvup.edu/wp-content/uploads/2014/06/wheelchair_icon.gif);
+	}
+
+	.sub-search
+	{
+		height: 102px;
+		width: 30%;
+		background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+		position: absolute;
+		right: 0;
+		z-index: 9;
+		display: none;
+		top: 40px;
+		padding: 20px 0px 0px 100px;
+		-webkit-border-bottom-right-radius: 20px;
+		-webkit-border-bottom-left-radius: 20px;
+		-moz-border-radius-bottomright: 20px;
+		-moz-border-radius-bottomleft: 20px;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		-webkit-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);	
+	}
+
+	.align-center 
+	{
+		width: 500px;
+		display: block;
+		margin-left: 2px;
+		margin-right: auto;
+		margin-top: 900px;
+		margin-top: 20px;
+	}
+
+	.middle-pic
+	{
+		margin-left: 25px;
+	}
+
+	.right-pic
+	{
+		margin-left: 25px;
+	}
+
+	.news-1 
+	{
+		color: #111683;
+		text-align: center;
+		font-size: 125%;
+	}
+
+	.news-more
+	{
+		color: #111683;
+		text-align: left;
+		font-size: 125%;
+	}
+
+	.news-pic1
+	{
+		margin-left: 5px;
+	}
+
+	.sub-nav
+	{
+		height: 450px;
+		width: 100%;
+		background: linear-gradient(to bottom, #e3b11f 0%,#e0ce9d 100%);
+		position: absolute;
+		left: 0;
+		z-index: 9;
+		display: none;
+		top: 40px;
+		-webkit-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+	}
+
+	.main-menu li:hover .sub-nav
+	{
+		display: block;
+	}
+
+	.main-menu li:hover .sub-search
+	{
+		display: block;
+	}
+
+	.box-shadow
+	{
+		-webkit-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+		box-shadow: 1px 5px 20px 0px rgba(0,0,0,0.75);
+	}
+
+	.go-button
+	{
+		border-width: 0;
+    border-style: solid;
+    border-color: #111683;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #dae6fa;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#dae6fa));
+    background-image: -webkit-linear-gradient(top, white, #dae6fa);
+    background-image: -moz-linear-gradient(top, white, #dae6fa);
+    background-image: -ms-linear-gradient(top, white, #dae6fa);
+    background-image: -o-linear-gradient(top, white, #dae6fa);
+    background-image: linear-gradient(top, white, #dae6fa);
+    box-shadow: 0pt -1px 0pt rgba(0, 0, 0, .075) inset, 0pt 1px 0pt rgba(255, 255, 255, .3) inset, 0pt 1px 2px rgba(0, 0, 0, .1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=white, endColorstr=#dae6fa);
+    border-radius: 4px;
+    color: #111683;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 7px 10px;
+    text-decoration: none;
+    text-shadow: 0 0 0 white;
+    vertical-align: middle;
+    white-space: nowrap;
+	}
