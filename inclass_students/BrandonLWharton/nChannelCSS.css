@@ -1,0 +1,26 @@
+body
+{
+
+}
+
+.header-section
+{
+	position: fixed;
+    right: 0;
+    left: 0;
+    display: block;
+    z-index: 10000000;
+    width: 100%;
+}
+
+.header-section .sign-in
+{
+	height: 35px;
+    overflow: hidden;
+    background-color: #3b3e4b;
+}
+
+.logo-image
+{
+	image-rendering: https://www.nchannel.com/wp-content/themes/nchannel/favicon.ico
+}
