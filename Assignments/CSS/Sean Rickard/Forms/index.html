@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+	<h1>Forms</h1>
+
+
+	<form method="POST" action="mailto:srickard@gmail.com">
+
+		<input type="text" placeholder="Enter Name...">
+		<input type="button" value="My Button" onclick="alert('Hello')">
+		<br><br>
+		<input type="checkbox" id="redColor" name="color" value="red"> <label for="redColor"> Red </label>  
+
+		<br />
+		<br><br>
+		<input type="date" name="birthday">
+		<br>
+		<input type="datetime" name="datetime">
+		<br>
+		<label for="userEmail">Email</label>
+		<input type="email" id="userEmail" 	name="email" placeholder="sam@email.com" required>
+		<br>
+		<input type="submit" value="Submit">
+		<br>
+		<input type="file" name="upload">
+		<br>
+		<input type="number" name="age" min="20" max="105">
+		<br>
+		<input type="password" name="pword">
+
+		<br><br> 
+		<textarea name="txt" id="mytext" cols="30" rows="10"></textarea>
+		<br>
+
+		<select name="mySel" id="mySel">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+		</select>
+		<select name="mulSel" id="mulSel" multiple>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+		</select>
+	</form>	
+</body>
+</html>
