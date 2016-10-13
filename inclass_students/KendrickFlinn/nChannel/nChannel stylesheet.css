@@ -1,0 +1,10 @@
+html, body
+{
+	background-color: #9cdcf2
+}
+
+font-family: 'Patua One', cursive;
+
+h1 {
+	text-shadow: 2px 2px black;
+}
