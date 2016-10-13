@@ -1,0 +1,25 @@
+html, body{
+background-color: #9CBCDA; 
+}
+.class-nav{
+background-color: #4651c9;
+}
+ul.main-menu li
+{
+	margin-bottom: 0;
+}
+ul.main-menu li
+{
+	color: #e3b11f;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+ul.main-menu li:hover{
+	color: white;
+	background-color: #afb1ff
+}
+ul.main-menu li:first-child
+{
+background-color: #e3b11f;
+color: white;
+}
