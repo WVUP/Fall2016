@@ -4,7 +4,7 @@ html, body
 }
 .main-nav
 {
-    background:#111683;
+    background:#3b3e4b;
 }
 ul.main-menu
 {
@@ -13,7 +13,7 @@ ul.main-menu
 }
 ul.main-menu > li
 {
- color:gold;
+ color:lightgray;
  padding: 10px 15px;
  cursor:pointer;
 
@@ -21,10 +21,9 @@ ul.main-menu > li
 ul.main-menu li:hover
 {
     color:white;
-    background-color: cadetblue !important;
 }
 ul.main-menu li:first-child{
-    background-color: gold;
+    background-color: #3b3e4b;
     color:white;
 }
 .content-wrapper
@@ -39,13 +38,13 @@ ul.main-menu li:first-child{
 }
 .feature-bar
 {
-    background-color:#5392ce;
+    background-color:#9cdcf2;
     border-radius: 5px;
     height:500px;
 }
 ul.sec-menu li
 {
- color:blue;
+ color:grey;
  cursor:pointer;
     padding: 3px;
     padding-left: 25px;
@@ -56,7 +55,7 @@ ul.sec-menu li
 ul.sec-menu li:hover
 {
     color:white;
-    background-color: cadetblue !important;
+    background-color: white !important;
 }
 .sidebar_icon{
     background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
@@ -65,14 +64,11 @@ ul.sec-menu li:hover
 .sub-nav{
     height: 450px;
     width:100%;
-    background-color: darkblue;
+    background-color: #3b3e4b;
     position: absolute;
     z-index: 9;
     display:none;
     top:40px;
-}
-.main-menu li:hover{
-    display: block;
 }
 .no-wrap {
     white-space: nowrap;
@@ -86,13 +82,6 @@ tr, td {
   list-style: none;
   display: inline;
     padding:50px;
-}
-.wv_logo {
-    position: fixed;
-    background: url(images/bell_graphic.gif) 0 0 no-repeat;
-    width: 220px;
-    height: 250px;
-    bottom: 10%;
 }
 /* Month header */
 .month {
