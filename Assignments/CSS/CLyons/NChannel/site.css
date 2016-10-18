@@ -1,0 +1,73 @@
+.body
+{
+	display: block;
+}
+
+.header
+{
+	height: 56px;
+	background-color: #3b3e4b;
+}
+
+.logo
+{
+	width: 110px;
+	position: absolute;
+	left: 363px;
+	top: 12px;
+	z-index: 10000000;
+	text-indent: -99999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	transition: all 0.2s ease-in-out;
+}
+
+.cyan
+{
+	background-color: #9cdcf2;
+	width:100%;
+	padding: 120px 0 0 0;
+}
+
+.stuff
+{
+	margin: 0 auto;
+	width: 40%
+}
+
+.introtext
+{
+	color:white;
+	font-family: "Kreon", "Times New Roman", serif;
+	font-size: 34px;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+	line-height: 30pt;
+	text-align: center
+}
+
+.introsubtext
+{
+	color: white;
+	font-family: "Kreon","Times New Roman", serif;
+	font-size: 20px;
+	margin: 15px 0 0 0;
+	line-height: 22pt;
+	font-weight: 400;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+	text-align: center
+}
+
+.booton
+{
+	background-color: #ee7541;
+	font-size: 18px;
+	font-family: "roboto", "helvetica", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	padding: 0px 20px 0px 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	color: white;
+	border-radius: 0px 10px 0px 10px;
+}
