@@ -28,5 +28,20 @@
   line-height: 22pt;
   font-weight: 400;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-  padding: 0px 0 130px 0;
+}
+
+.styled-btn
+{
+    width: 121px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #ee7541;
+    font-size: 18px;
+    padding: 10px 20px 12px 20px;
+    display: block;
+    color: #FFF;
+    margin: 0 auto;
+}
+.styled-btn:hover
+{
+      background-color: #6b6b6b;
 }
