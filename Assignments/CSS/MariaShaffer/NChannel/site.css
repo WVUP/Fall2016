@@ -1,0 +1,49 @@
+.topbar{
+	position: relative;
+    height: 56px;
+    margin: 0;
+    background-color: #3b3e4b;
+}
+.logo1{
+	height: 41px;
+	width: 155px;
+	background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/logo.png); 
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: block;
+}
+li {
+	color: #9e9e9e;
+	height: 100%;
+}
+.btn-number {
+	background-color: #ee7541;
+	height: 30px;
+	width: 120px;
+	position: relative;
+	color: white;
+	display: inline-block;
+	float: right;
+	line-height: 22pt;
+}
+.btn-email {
+	background-color: #00b2ee;
+	height: 30px;
+	width: 120px;
+	position: relative;
+	color: white;
+	display: inline-block;
+	float: right;
+	line-height: 22pt;
+}
+.btn-chat {
+	background-color: #ebad06;
+	height: 30px;
+	width: 120px;
+	position: relative;
+	color: white;
+	display: inline-block;
+	float: right;
+	line-height: 22pt;
+}
