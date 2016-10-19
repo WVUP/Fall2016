@@ -1,0 +1,45 @@
+.header
+{
+	background-color: #3b3e4b;
+	margin: 0;
+	box-sizing: border-box;
+	position: fixed;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 10000000;
+	width: 100%
+}
+
+.logo
+{
+	content: url(https://www.nchannel.com/);
+}
+
+ul.main-menu li
+{
+	color: #7b7e8d;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.main-menu li:hover
+{
+	color: white;
+}
+
+.logo
+{
+	position: absolute;
+    left: 20px;
+    top: 0px;
+    height: 100%;
+    width: 155px;
+    z-index: 100000000;
+    text-indent: -99999px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    transition: all 0.2s;
+}
