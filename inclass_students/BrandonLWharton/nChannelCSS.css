@@ -10,7 +10,7 @@ body
     left: 0;
     display: block;
     z-index: 10000000;
-    width: 100%;
+    width: 200%;
 }
 
 .header-section .sign-in
@@ -41,8 +41,8 @@ body .contain
 
 .list_inline
 {
-	padding-left: 0;
-	margin-left: -5px;
+	padding-right: 0;
+	margin-right: -5px;
 	list-style: none;
 	list-style-position: initial;
 	list-style-image: initial;
@@ -58,4 +58,9 @@ ul .menu-cast li
     height: 100%;
     float: right;
     padding: 20px 5px;
+}
+ img .logo
+ {
+    float: left;
+    margin: 10px 10px 10px 10px;
 }
