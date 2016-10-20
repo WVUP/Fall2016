@@ -8,3 +8,17 @@ font-family: 'Patua One', cursive;
 h1 {
 	text-shadow: 2px 2px black;
 }
+
+.button {
+	background-color: #ee7541;
+	border: none;
+	color: white;
+	padding: none;
+	font-size: 16px;
+}
+
+.top-nav{
+	background-color: #3b3e4b;
+	height: 13%;
+	width: 100%;
+}
