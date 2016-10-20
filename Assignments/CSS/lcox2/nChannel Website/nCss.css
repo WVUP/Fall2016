@@ -175,6 +175,7 @@ ul.main-menu li:first-child{
 img{
     width:100%;
     position: relative;
+    background-image: url('https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png');
 }
 .sec-nav
 {
