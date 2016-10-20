@@ -5,6 +5,54 @@ html, body
 .main-nav
 {
     background:#3b3e4b;
+    position: relative;
+    margin: 0;
+}
+#under .btn.number{
+    background-color: #ee7541;
+}
+#under .btn.email{
+    background-color: #00b2ee;
+}
+#under .btn.chat{
+    background-color:#ebad06;
+}
+
+#under .btn{
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    padding:0 11px;
+    line-height: 24pt;
+    font-family: "Roboto", "Helvitica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #FFF;
+    overflow: hidden;
+    float: right;
+}
+#under{
+    height: 36px;
+    position: absolute;
+    bottom: -36px;
+    right:0;
+    left:0;
+    width: 100%;
+    z-index: 100000;
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 13px;
+}
+#searchform.closed{
+    width:39px;
+}
+#searchform{
+    float: right;
+    height: 36px;
+    position: relative;
+    padding: 0;
+    margin: 0 0 0 5px;
+    overflow: hidden;
 }
 ul.main-menu
 {
@@ -84,71 +132,65 @@ tr, td {
     padding:50px;
 }
 /* Month header */
-.month {
-    padding: 70px 25px;
+#cyan{
+    background-color: #9cdcf2;
     width: 100%;
-    background: darkblue;
 }
-
-/* Month list */
-.month ul {
-    margin: 0;
-    padding: 0;
+.contain{
+    height: 100%;
+    position: relative;
 }
-
-.month ul li {
+.cta h1{
     color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-/* Previous button inside month header */
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-/* Weekdays (Mon-Sun) */
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color:#ddd;
-}
-
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
+    font-size: 34px;
+    text-shadow:1px 1px 3px black;
+    line-height: 30pt;
     text-align: center;
 }
-
-/* Days (1-31) */
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
+.cta p{
+    color: white;
+    margin:15px 0 0 0;
+    line-height: 22pt;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px black;
     text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color:#777;
-}
 
-/* Highlight the "current" day */
-.days li .active {
-    padding: 5px;
-    background: gold;
-    color: white !important
+}
+#body .contain{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 20px;
+    vertical-align: baseline;
+}
+.sign-in{
+    height: 0px;
+}
+.under{
+    height: 36px;
+    position: absolute;
+    bottom: -36px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.contain .cta .btn{
+    background-color: #ee7541;
+    font-size: 18px;
+
+}
+#contain .btn{
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px 20px 12px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    color: #FFF;
+    border-radius: 0px 10px 0px 10px;
 }
