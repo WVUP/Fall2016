@@ -15,12 +15,47 @@ body
 
 .header-section .sign-in
 {
-	height: 35px;
-    overflow: hidden;
-    background-color: #3b3e4b;
+	height: 50px;
+	width: 200%;
+    background-color: #3b3e4b;/*dark blue top*/
 }
 
-.logo-image
+.body-background
 {
-	image-rendering: https://www.nchannel.com/wp-content/themes/nchannel/favicon.ico
+	background-color: #9cdcf2;/*light blue body*/
+}
+
+body .contain
+{
+	margin: auto;
+	max-width: 940px;
+	padding: 0 20px;
+	position: relative;
+}
+
+.list-unstyled
+{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list_inline
+{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+	list-style-position: initial;
+	list-style-image: initial;
+}
+
+ul .menu-cast li
+{
+	color: #7b7e8d
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: 'Kreon';
+    height: 100%;
+    float: right;
+    padding: 20px 5px;
 }
