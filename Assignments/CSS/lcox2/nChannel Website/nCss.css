@@ -1,21 +1,26 @@
 html, body
 {
     background-color: #9cdcf2;
+    width: 100%;
 }
 .main-nav
 {
     background:#3b3e4b;
     position: relative;
     margin: 0;
+    width: 100%;
 }
 #under .btn.number{
     background-color: #ee7541;
+    float: right;
 }
 #under .btn.email{
     background-color: #00b2ee;
+    float: right;
 }
 #under .btn.chat{
     background-color:#ebad06;
+    float: right;
 }
 
 #under .btn{
@@ -64,6 +69,7 @@ ul.main-menu > li
  color:lightgray;
  padding: 5px 10px;
  cursor:pointer;
+ text-align: right;
 
 }
 ul.main-menu li:hover
@@ -79,35 +85,11 @@ ul.main-menu li:first-child{
     background-color: white;
     
 }
-.left-nav
-{
-    height:2000px;
-    background: linear-gradient(to bottom, gold 0%, lightyellow 100%)
-}
 .feature-bar
 {
     background-color:#9cdcf2;
     border-radius: 5px;
     height:500px;
-}
-ul.sec-menu li
-{
- color:grey;
- cursor:pointer;
-    padding: 3px;
-    padding-left: 25px;
-    padding-right: 10px;
-    text-align: right;
-
-}
-ul.sec-menu li:hover
-{
-    color:white;
-    background-color: white !important;
-}
-.sidebar_icon{
-    background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
-
 }
 .sub-nav{
     height: 450px;
@@ -131,15 +113,6 @@ tr, td {
   display: inline;
     padding:50px;
 }
-/* Month header */
-#cyan{
-    background-color: #9cdcf2;
-    width: 100%;
-}
-.contain{
-    height: 100%;
-    position: relative;
-}
 .cta h1{
     color: white;
     font-size: 34px;
@@ -161,6 +134,7 @@ tr, td {
     max-width: 940px;
     padding: 0 20px;
     vertical-align: baseline;
+    text-align: center;
 }
 .sign-in{
     height: 0px;
@@ -178,12 +152,16 @@ tr, td {
     padding: 0 13px;
     box-sizing: border-box;
 }
-.contain .cta .btn{
+.container .cta .btn{
     background-color: #ee7541;
     font-size: 18px;
+    float: right;
+    position: relative;
+    left: -45%;
+    text-align:left;
 
 }
-.contain .btn{
+.container .btn{
     font-family: "Roboto", "Helvetica", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -194,34 +172,18 @@ tr, td {
     color: #FFF;
     border-radius: 0px 10px 0px 10px;
     
-    
 }
-#row .connect{
-    height: 200px;
-    width: 100%;
+#banner{
+    background-color: #ee7541;
+    color: #FFF;
+    text-align: center;
+    float: right;
+    width:100%;
+    z-index: 0;
+}
+img{
+    width:100%;
+    float: right;
+    left: -10%;
     position: relative;
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 20px;
-    background-image: url(images/dot-pat.png);
-    background-repeat: repeat;
-    background-position: center center;
-}
-#row .connect .img{
-        width: 100%;
-    background-image: url(images/connect.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: contain;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-#row .connect img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
