@@ -460,3 +460,19 @@ body .contain{
     margin: 0 3%;
     float: left;
 }
+#sales .testimonials .half .bubble {
+    position: relative;
+    background-image: url(images/quote.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    background-color: #22b0e6;
+    padding: 28px 30px 31px 35px;
+    border-radius: 0px 20px 0px 20px;
+}
+#sales .testimonials .half .bubble p {
+    font-weight: 700;
+    font-family: "Kreon", "Times New Roman", serif;
+    color: #FFF;
+    line-height: 22pt;
+    font-size: 20px;
+}
