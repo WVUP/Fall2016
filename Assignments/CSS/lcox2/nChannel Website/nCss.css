@@ -103,16 +103,6 @@ ul.main-menu li:first-child{
 .no-wrap {
     white-space: nowrap;
 }
-tr {
-  white-space: nowrap;
-}
-
-tr, td {
-
-  list-style: none;
-  display: inline;
-    padding:50px;
-}
 .cta h1{
     color: white;
     font-size: 34px;
@@ -178,12 +168,19 @@ tr, td {
     color: #FFF;
     text-align: center;
     float: right;
-    width:100%;
-    z-index: 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
 }
 img{
     width:100%;
-    float: right;
-    left: -10%;
     position: relative;
+}
+.sec-nav
+{
+    background:#ee7541;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    color: #fff;
 }
