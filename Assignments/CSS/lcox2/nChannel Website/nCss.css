@@ -1,0 +1,227 @@
+html, body
+{
+    background-color: #9cdcf2;
+}
+.main-nav
+{
+    background:#3b3e4b;
+    position: relative;
+    margin: 0;
+}
+#under .btn.number{
+    background-color: #ee7541;
+}
+#under .btn.email{
+    background-color: #00b2ee;
+}
+#under .btn.chat{
+    background-color:#ebad06;
+}
+
+#under .btn{
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    padding:0 11px;
+    line-height: 24pt;
+    font-family: "Roboto", "Helvitica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #FFF;
+    overflow: hidden;
+    float: right;
+}
+#under{
+    height: 36px;
+    position: absolute;
+    bottom: -36px;
+    right:0;
+    left:0;
+    width: 100%;
+    z-index: 100000;
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 13px;
+}
+#searchform.closed{
+    width:39px;
+}
+#searchform{
+    float: right;
+    height: 36px;
+    position: relative;
+    padding: 0;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+}
+ul.main-menu
+{
+    margin-bottom:0;
+    margin-left:0;
+}
+ul.main-menu > li
+{
+ color:lightgray;
+ padding: 5px 10px;
+ cursor:pointer;
+
+}
+ul.main-menu li:hover
+{
+    color:white;
+}
+ul.main-menu li:first-child{
+    background-color: #3b3e4b;
+    color:white;
+}
+.content-wrapper
+{
+    background-color: white;
+    
+}
+.left-nav
+{
+    height:2000px;
+    background: linear-gradient(to bottom, gold 0%, lightyellow 100%)
+}
+.feature-bar
+{
+    background-color:#9cdcf2;
+    border-radius: 5px;
+    height:500px;
+}
+ul.sec-menu li
+{
+ color:grey;
+ cursor:pointer;
+    padding: 3px;
+    padding-left: 25px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+ul.sec-menu li:hover
+{
+    color:white;
+    background-color: white !important;
+}
+.sidebar_icon{
+    background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
+
+}
+.sub-nav{
+    height: 450px;
+    width:100%;
+    background-color: #3b3e4b;
+    position: absolute;
+    z-index: 9;
+    display:none;
+    top:40px;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+tr {
+  white-space: nowrap;
+}
+
+tr, td {
+
+  list-style: none;
+  display: inline;
+    padding:50px;
+}
+/* Month header */
+#cyan{
+    background-color: #9cdcf2;
+    width: 100%;
+}
+.contain{
+    height: 100%;
+    position: relative;
+}
+.cta h1{
+    color: white;
+    font-size: 34px;
+    text-shadow:1px 1px 3px black;
+    line-height: 30pt;
+    text-align: center;
+}
+.cta p{
+    color: white;
+    margin:15px 0 0 0;
+    line-height: 22pt;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+
+}
+.body .contain{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 20px;
+    vertical-align: baseline;
+}
+.sign-in{
+    height: 0px;
+}
+.under{
+    height: 36px;
+    position: absolute;
+    bottom: -36px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.contain .cta .btn{
+    background-color: #ee7541;
+    font-size: 18px;
+
+}
+.contain .btn{
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px 20px 12px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    color: #FFF;
+    border-radius: 0px 10px 0px 10px;
+    
+    
+}
+#row .connect{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(images/dot-pat.png);
+    background-repeat: repeat;
+    background-position: center center;
+}
+#row .connect .img{
+        width: 100%;
+    background-image: url(images/connect.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#row .connect img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
