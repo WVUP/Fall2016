@@ -175,6 +175,16 @@ tr, td {
 }
 #banner{
     background-color: #ee7541;
+    color: #FFF;
     padding: 28px 0 30px 0;
-    text-align: center 
+    text-align: center;
+    position: relative;
+    float: right;
+    left: 5%;
+}
+img{
+    width:100%;
+    float: right;
+    left: -10%;
+    position: relative;
 }
