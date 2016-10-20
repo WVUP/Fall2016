@@ -7,14 +7,18 @@
 {
 	height: 56px;
 	background-color: #3b3e4b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .logo
 {
 	width: 110px;
 	position: absolute;
-	left: 363px;
-	top: 12px;
+	left: 21.7%;
+	top: 21%;
 	z-index: 10000000;
 	text-indent: -99999px;
 	background-repeat: no-repeat;
@@ -70,4 +74,76 @@
 	margin: 20px 0 0 0;
 	color: white;
 	border-radius: 0px 10px 0px 10px;
+	transition: all 0.3s ease 0s;
+}
+
+.booton:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+}
+
+.dots
+{
+	background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png);
+	height: 193px;
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: 69px; 
+}
+
+.connect
+{
+	position: absolute;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.orange
+{
+	background-color: #ee7541;
+	color: white;
+	font-family: "Kreon", "Times New Roman", serif;
+	font-size: 34px;
+	line-height: 30pt;
+	text-align: center;
+	padding: 10px 0 23px 0;
+}
+
+.orange:hover
+{
+	cursor: pointer;
+}
+
+.contain
+{
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+ul.toplist li
+{
+	display: inline;
+}
+
+ul.toplist
+{
+	text-align: right;
+	padding: 2%
+}
+
+li.spacing
+{
+	padding-right: 3%;
+}
+
+.listtext
+{
+	font-family: "Kreon", "Times New Roman", serif;
+	color: #7f8291;
+	font-size: 15px;
+	font-weight: 700;
 }
