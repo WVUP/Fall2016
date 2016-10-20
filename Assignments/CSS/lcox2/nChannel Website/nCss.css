@@ -3,6 +3,9 @@ html, body
     background-color: #9cdcf2;
     width: 100%;
 }
+#newbody{
+    background-color: #FFF;
+}
 .main-nav
 {
     background:#3b3e4b;
@@ -172,11 +175,12 @@ ul.main-menu li:first-child{
     margin: 0;
     width: 100%;
 }
-img{
+#img{
     width:100%;
     position: relative;
     background-image: url('https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png');
-    background-repeat: repeat;    
+    background-repeat: repeat;
+
 }
 .sec-nav
 {
@@ -188,4 +192,18 @@ img{
     float: right;
     left: 15%;
     text-align: center;
+}
+.features{
+    margin:50px 0;
+}
+#features .half{
+    width:40%;
+    overflow: hidden;
+    margin: 45px 6% 0 4%;
+    color: #6b6b6b;
+    position: relative;
+    padding: 0 0 0 130px;
+    box-sizing: border-box;
+}#features .half .text{
+    float: left;
 }
