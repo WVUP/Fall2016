@@ -1,6 +1,6 @@
 html, body
 {
-    background-color: #9CBCDA
+    background-color: #9cdcf2;
 }
 .main-nav
 {
@@ -62,7 +62,7 @@ ul.main-menu
 ul.main-menu > li
 {
  color:lightgray;
- padding: 10px 15px;
+ padding: 5px 10px;
  cursor:pointer;
 
 }
@@ -156,7 +156,7 @@ tr, td {
     text-align: center;
 
 }
-#body .contain{
+.body .contain{
     margin: 0 auto;
     max-width: 940px;
     padding: 0 20px;
@@ -183,7 +183,7 @@ tr, td {
     font-size: 18px;
 
 }
-#contain .btn{
+.contain .btn{
     font-family: "Roboto", "Helvetica", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -193,4 +193,35 @@ tr, td {
     margin: 20px 0 0 0;
     color: #FFF;
     border-radius: 0px 10px 0px 10px;
+    
+    
+}
+#row .connect{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(images/dot-pat.png);
+    background-repeat: repeat;
+    background-position: center center;
+}
+#row .connect .img{
+        width: 100%;
+    background-image: url(images/connect.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#row .connect img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
