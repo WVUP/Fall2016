@@ -295,7 +295,7 @@ body .contain{
 #side-pager li.cycle-pager-active {
     color: #22b0e6;
 }
-.device-mockup.imac > .device > .screen {
+.device-mockup.imac .device .screen {
     top: 8.20707071%;
     bottom: 31.6919192%;
     left: 6.61538462%;
@@ -332,6 +332,12 @@ body .contain{
     padding: 10px 20px 12px 20px;
     margin: 20px 0 0 0;
     color: #FFF;
+}
+#tabs #tabnav .section .third {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin: 0 1.5%;
 }
 #support {
     min-height: 500px;
