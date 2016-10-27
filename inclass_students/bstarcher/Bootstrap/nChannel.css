@@ -1,6 +1,9 @@
 .myheader
 {
 	background-color: #3b3e4b;
+	height: 75px;
+	position: fixed;
+	z-index: 2;
 }
 
 .full-width-div
@@ -52,4 +55,16 @@ ul.main-menu li:hover
 {
 	background-color: #9cdcf2;
 	color: white;
+}
+.hoverable:hover
+{
+	background-color: #6b6b6b !important;
+	color: white;
+	cursor: pointer;
+	transition: background 0.25s ease-in-out;
+}
+
+.search-icon
+{
+	size: 100px;
 }

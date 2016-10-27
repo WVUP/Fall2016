@@ -2,13 +2,17 @@ html, body
 {
     background-color: #9cdcf2;
     width: 100%;
+    z-index:4;
+}
+#newbody{
+    background-color: #FFF;
+    z-index:5;
 }
 .main-nav
 {
-    background:#3b3e4b;
-    position: relative;
-    margin: 0;
-    width: 100%;
+    width: 100% !important;
+	background:#3b3e4b; 
+	position: relative;
 }
 #under .btn.number{
     background-color: #ee7541;
@@ -63,6 +67,8 @@ ul.main-menu
 {
     margin-bottom:0;
     margin-left:0;
+    margin-right:0;
+    margin-top:0;
 }
 ul.main-menu > li
 {
@@ -84,12 +90,6 @@ ul.main-menu li:first-child{
 {
     background-color: white;
     
-}
-.feature-bar
-{
-    background-color:#9cdcf2;
-    border-radius: 5px;
-    height:500px;
 }
 .sub-nav{
     height: 450px;
@@ -142,6 +142,12 @@ ul.main-menu li:first-child{
     padding: 0 13px;
     box-sizing: border-box;
 }
+body .contain{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 20px;
+    position: relative;
+}
 .container .cta .btn{
     background-color: #ee7541;
     font-size: 18px;
@@ -169,21 +175,306 @@ ul.main-menu li:first-child{
     text-align: center;
     float: right;
     position: relative;
+    padding: 28px 0 30px 0;
     margin: 0;
     width: 100%;
 }
-img{
+.banImg{
     width:100%;
     position: relative;
+    background-image: url('https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png');
+    background-repeat: repeat;
+    display:block;
+    background-color:#9cdcf2;
+
 }
 .sec-nav
 {
     background:#ee7541;
     position: relative;
-    margin: 0;
     width: 100%;
     color: #fff;
     float: right;
     left: 15%;
     text-align: center;
+}
+#features{
+    margin:50px 0;
+}
+#features .half{
+    width:40%;
+    overflow: hidden;
+    margin: 45px 6% 0 4%;
+    color: #6b6b6b;
+    position: relative;
+    padding: 0 0 0 130px;
+    box-sizing: border-box;
+}#features .half .text{
+    float: left;
+}
+#features .features-link{
+    text-align:center;
+    padding: 5px 0;
+    margin: 40px 0 0 0;
+}
+#features .features-link a{
+    background-color: #22b0e6;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+}
+#features .row{
+    overflow:hidden;
+    width: 100%;
+}
+#explore{
+    background-color:#f4f4f4;
+    padding:75px 0 0 0;
+}
+#explore .h3 {
+    text-align: center;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #6b6b6b;
+    margin: 0 0 35px 0;
+}
+#explore #side-pager {
+    float: left;
+    padding: 0 90px 0 0;
+    width: 40%;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#explore #side-pager {
+    float: left;
+    padding: 0 90px 0 0;
+    width: 40%;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#explore #imac-wrap {
+    width: 60%;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+.device-mockup.imac {
+    padding-bottom: 81.230769%;
+}
+.device-mockup .imac .device {
+    background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/imac.png);
+}
+#side-pager:after {
+    content: url(https://www.nchannel.com/wp-content/themes/nchannel/images/wires.png);
+    position: absolute;
+    top: 38px;
+    right: -80px;
+    z-index: 1;
+}
+#explore #side-pager li {
+    cursor: pointer;
+    border: 2px solid #e8e8e8;
+    background-color: #FFF;
+    text-align: center;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16pt;
+    color: #6b6b6b;
+    padding: 13px 5px 14px 5px;
+    margin: 21px 0 0 0;
+    position: relative;
+    z-index: 100;
+    border-radius: 5px;
+}
+#side-pager li.cycle-pager-active {
+    color: #22b0e6;
+}
+.device-mockup.imac .device .screen {
+    top: 8.20707071%;
+    bottom: 31.6919192%;
+    left: 6.61538462%;
+    right: 6.61538462%;
+}
+#tabs {
+    z-index: 100
+}
+#tabs #tabnav {
+    margin: 24px auto 30px auto;
+    width: 100%;
+    min-height: 350px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+#tabnav li {
+    overflow: hidden;
+    list-style: none;
+    display: inline;
+}
+#tabnav .section .third {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin: 0 1.5%;
+}
+#tabs #tabnav .section .third a {
+    background-color: #22b0e6;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px 20px 12px 20px;
+    margin: 20px 0 0 0;
+    color: #FFF;
+}
+#tabs #tabnav .section .third {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin: 0 1.5%;
+}
+#support {
+    min-height: 500px;
+    background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/orange-back.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ee7541;
+    padding: 115px 0 0 0;
+}
+#support .text {
+    font-weight: 700;
+    max-width: 645px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#support .text h2, .home .body-section #support .text h3 {
+    color: #FFF;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 30pt;
+}
+#support .text p {
+    color: #FFF;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    line-height: 22pt;
+    font-weight: 400;
+}
+#support .contact {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 35px 0 0 0;
+    max-width: 700px;
+}
+#support .contact .half {
+    width: 47%;
+    float: left;
+    border: 3px solid #FFF;
+    text-align: left;
+    margin: 0 1.5%;
+    padding: 15px 20px 16px 20px;
+    min-height: 120px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    border-radius: 0px 20px 0px 20px;
+}
+#support .contact .half h4 {
+    font-family: "Kreon", "Times New Roman", serif;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19pt;
+    margin: 0 0 10px 0;
+}
+#support .contact .half .btn {
+    background-color: #22b0e6;
+    text-shadow: none;
+    float: left;
+    margin: 0 20px 0 0;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    line-height: 14pt;
+}
+#support .contact .half span {
+    color: #FFF;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    line-height: 18pt;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 0 0 120px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#support .text h3 {
+    color: #FFF;
+}
+#sales .text {
+    overflow: hidden;
+}
+#sales .text h2 {
+    color: #6b6b6b;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-weight: 700;
+    line-height: 39pt;
+    font-size: 34px;
+    text-align: right;
+    width: 34%;
+    float: left;
+}
+#sales .text p {
+    color: #6b6b6b;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    line-height: 18pt;
+    font-size: 16px;
+    width: 66%;
+    float: left;
+    padding: 7px 0 0 40px;
+    max-width: 525px;
+}
+ #sales .img-icons {
+    text-align: center;
+    margin: 45px 0 75px 0;
+}
+#sales .img-icons img {
+    margin: 0 35px;
+}
+#sales .testimonials {
+    overflow: hidden;
+    margin: 0 -3%;
+}
+#sales .testimonials .half {
+    width: 44%;
+    margin: 0 3%;
+    float: left;
+}
+#sales .testimonials .half .bubble {
+    position: relative;
+    background-image: url(images/quote.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    background-color: #22b0e6;
+    padding: 28px 30px 31px 35px;
+    border-radius: 0px 20px 0px 20px;
+}
+#sales .testimonials .half .bubble p {
+    font-weight: 700;
+    font-family: "Kreon", "Times New Roman", serif;
+    color: #FFF;
+    line-height: 22pt;
+    font-size: 20px;
 }
