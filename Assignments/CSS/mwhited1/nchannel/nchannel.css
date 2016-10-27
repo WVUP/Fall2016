@@ -1,10 +1,13 @@
+
+
+
 .top-nav{
 
 	background-color: #3b3e4b;
-	height: 13%;
+	height: 100px;
 	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	
+
 }
 
 .sell-nav1{
@@ -12,8 +15,8 @@
 	background-color: #9cdcf2;
 	height: 10%;
 	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	
+	
 }
 
 .sell-nav2{
@@ -21,8 +24,8 @@
 	background-color: #9cdcf2;
 	height: 60%;
 	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	
+	
 }
 
 
@@ -30,8 +33,16 @@
 	background-color: #ee7541;
 	height: 12%;
 	width: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+
+}
+.feature-nav{
+
+	background-color: white;
+	height: 40%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
 
 
 
@@ -41,6 +52,15 @@
 .btn{
 	background-color: #ee7541;
     font-size: 18px;
+}
+
+.connect{
+	height: 200px;
+    width: 100%;
+    position: relative;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png");
+    background-repeat: repeat;
+
 }
 
 
