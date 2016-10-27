@@ -1,10 +1,14 @@
-body
+#body
 {
     background-color: #9cdcf2;
     width: 100%;
     z-index:4;
 }
-newbody{
+#threBody{
+    background-color:#f4f4f4;
+    z-index:12;
+}
+.newbody{
     background-color: #FFF;
     z-index:10;
 }
@@ -119,7 +123,7 @@ ul.main-menu li:first-child{
     text-align: center;
 
 }
-.body .contain{
+.contain{
     margin: 0 auto;
     max-width: 940px;
     padding: 0 20px;
@@ -142,7 +146,7 @@ ul.main-menu li:first-child{
     padding: 0 13px;
     box-sizing: border-box;
 }
-body .contain{
+.contain{
     margin: 0 auto;
     max-width: 940px;
     padding: 0 20px;
@@ -180,13 +184,17 @@ body .contain{
     width: 100%;
     display:block;
 }
-.banImg{
-    width:100%;
+.ban-Img{
+    height: 200px;
+    width: 100%;
     position: relative;
+    max-width: 940px;
+    margin: 0 auto;
     background-image: url('https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png');
     background-repeat: repeat;
-    display:block;
     background-color:#9cdcf2;
+    background-position: center center;
+    box-sizing: border-box
 
 }
 .sec-nav
@@ -265,7 +273,7 @@ body .contain{
     z-index: 10;
 }
 .device-mockup.imac {
-    padding-bottom: 81.230769%;
+    padding-bottom: 0%;
 }
 .device-mockup .imac .device {
     background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/imac.png);
@@ -318,13 +326,13 @@ body .contain{
     list-style: none;
     display: inline;
 }
-#tabnav .section .third {
+.third {
     width: 30%;
     overflow: hidden;
     float: left;
     margin: 0 1.5%;
 }
-#tabs #tabnav .section .third a {
+.third a {
     background-color: #22b0e6;
     font-family: "Roboto", "Helvetica", sans-serif;
     font-weight: 700;
@@ -333,12 +341,6 @@ body .contain{
     padding: 10px 20px 12px 20px;
     margin: 20px 0 0 0;
     color: #FFF;
-}
-#tabs #tabnav .section .third {
-    width: 30%;
-    overflow: hidden;
-    float: left;
-    margin: 0 1.5%;
 }
 #support {
     min-height: 500px;
@@ -478,4 +480,9 @@ body .contain{
     color: #FFF;
     line-height: 22pt;
     font-size: 20px;
+}
+.icon-check {
+    padding: 0 3% 0 35px;
+    position: relative;
+    margin: 0 0 25px 0;
 }
