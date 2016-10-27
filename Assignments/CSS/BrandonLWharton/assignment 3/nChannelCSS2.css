@@ -1,7 +1,7 @@
 
- .main-nav
+ 		.main-nav
         {
-            background: #696969;
+            background: #3b3e4b;
             position:fixed;
             top:0;
             left:0;
@@ -19,7 +19,7 @@
 
         .feature
         {
-            background: steelblue;
+            background: #9cdcf2;
             height:500px;
             margin-top:60px;
         }
@@ -42,9 +42,14 @@
 
          ul.round-btn li
         {
-            background:red;
             margin:0 20px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             height:40px;
+            color: white ;
+        }
+
+        .expand
+        {
+
         }
