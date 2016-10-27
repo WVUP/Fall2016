@@ -53,6 +53,19 @@
             border-bottom-right-radius: 10px;
             height:40px;
         }
+
+        .btn
+        {
+            padding:5px 15px;
+            display:inline-block;
+            cursor:pointer;
+        }
+        .btn-red { background:red;}
+
+        .hoverable:hover
+        {   background:silver !important;
+            transition: background 1s ease-in-out;
+        }
     </style>
 </head>
 <body>
@@ -89,12 +102,24 @@
         </div>
     </div>
 
-    <div style="background:orange; height:100px;">
+<<<<<<< HEAD
+    <div style="background:orange; height:100px;" class="hoverable">
         <div class="wrapper">
+=======
+    <div style="background:orange; height:100px;">
+        <div class="wrapper" >
+>>>>>>> 1d8ce39ec8560b18586f815174aa1c8e8192066e
             Simply Select...
         </div>
     </div>
 
+
+    <div style="background:#fff; height:400px;">
+        <div class="wrapper">
+            <br><br>
+            <div class="btn btn-red hoverable">Fancy</div>
+        </div>
+    </div>
 
 
     

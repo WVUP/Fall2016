@@ -95,11 +95,8 @@
 
 .connect
 {
-	position: absolute;
-	margin: 0 auto;
-	bottom: 0;
-	right: 0;
-	left: 0;
+	float: initial;
+	margin-top: -103px
 }
 
 .orange
