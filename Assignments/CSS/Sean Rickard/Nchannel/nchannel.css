@@ -7,7 +7,7 @@ html,body
 
 	width: 100%; !important;
 	background:#3b3e4b; 
-	position: relative;
+	position: fixed;
 	
 }
 .logo
@@ -36,6 +36,7 @@ ul.main-menu li:hover
 }
 .body-header
 {
+	margin-top: 150px;
 	font-family:  "Kreon", "Times New Roman", serif;
 	font-size: 34px;
 	color: #FFF;
@@ -46,7 +47,7 @@ ul.main-menu li:hover
 }
 p.body-header
 {
-	font-family:  "Kreon", "Times New Roman", serif;
+	font-family: 'Kreon', serif;
 	text-align: center;
 	font-size: 18px;
 	line-height: 22pt;
@@ -59,22 +60,16 @@ p.body-header
 }
 .box
 {
-	display:block;
+	display:inline-block;
 	background-color: #ee7541;
 	border-radius: 15px 50px;
-	max-width: 100px;
 	text-align: center;
-	font-family:  "Kreon", "Times New Roman", serif;
-	/*display:block;
+	font-family: "Roboto", "Helvetica", sans-serif;
+	font-weight: 700;
 	padding: 10px 20px 12px 20px;
-	border-radius: 15px 50px;
-	width: 100px;
-	margin-left: 125px;
+	font-style: italic;
+	border-radius: 0px 10px 0px 10px;
+	margin-left: 235px;
 	color: #FFF;
-	background-color: #ee7541;*/*/
+	background-color: #ee7541;
 }
-/*a.box
-{
-	font-family:  "Kreon", "Times New Roman", serif;
-	
-}*/
