@@ -12,6 +12,7 @@ newbody{
 {
     width: 100% !important;
 	background:#3b3e4b; 
+    text-align:center;
 }
 #under .btn.number{
     background-color: #ee7541;
