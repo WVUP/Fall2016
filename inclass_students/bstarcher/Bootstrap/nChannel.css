@@ -68,3 +68,10 @@ ul.main-menu li:hover
 {
 	size: 100px;
 }
+
+.box-shadow 
+{
+	-webkit-box-shadow: 10px -7px 25px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -7px 25px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px -7px 25px -10px rgba(0,0,0,0.75);
+}
