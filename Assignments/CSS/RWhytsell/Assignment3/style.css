@@ -5,19 +5,29 @@
   width: 100%;
   height: 56px;
   top: 0px;
+  left: 0px;
 }
 
 .logo
 {
-  position: absolute;
-  left: 205px;
-  top: 0px;
-  height: 100%;
-  width: 110px;
-  background-image: url(images/logo.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+	width: 110px;
+	position: absolute;
+	left: 21.7%;
+	top: 21%;
+	z-index: 10000000;
+	text-indent: -99999px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	transition: all 0.2s ease-in-out;
+}
+
+li.spacing
+{
+	padding-right: 3%;
+  display: inline;
+  margin: 0 auto;
+  width: 40%
 }
 
 .div1
