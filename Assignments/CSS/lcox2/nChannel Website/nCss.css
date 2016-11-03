@@ -486,3 +486,30 @@ ul.main-menu li:first-child{
     position: relative;
     margin: 0 0 25px 0;
 }
+#logos {
+    text-align: center;
+    padding: 30px 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+body #logos .wrap {
+    margin: 0 -25px;
+    overflow: hidden;
+}
+body #logos span {
+    width: 24%;
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    padding: 25px 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#logos .wrap .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
