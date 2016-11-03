@@ -11,6 +11,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1000000000000;
 }
 
 .logo
@@ -143,4 +144,151 @@ li.spacing
 	color: #7f8291;
 	font-size: 15px;
 	font-weight: 700;
+}
+
+.center
+{
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.features
+{
+	padding: 0 20px;
+	position: relative;
+}
+
+.rowCustom
+{
+	width: 40%;
+    overflow: hidden;
+    float: left;
+    margin: 45px 6% 0 4%;
+    color: #6b6b6b;
+    position: relative;
+    padding: 0 0 0 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rowpictures
+{
+	float: left;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+.rowheadertext
+{
+	font-family: "Kreon", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19pt;
+    margin: 0 0 3px 0;
+}
+
+.rowsubtext
+{
+	font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 900;
+    color: #ee7541;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.rowdescriptiontext
+{
+	font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    line-height: 18pt;
+    font-size: 16px;
+    color: #6b6b6b;
+}
+
+.rowcontainers
+{
+	width: 940px;
+	height: 240px;
+}
+
+.booton2
+{
+	background-color: #22b0e6;
+	font-size: 18px;
+	font-family: "roboto", "helvetica", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	padding: 10px 20px 12px 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+	color: white;
+	border-radius: 0px 10px 0px 10px;
+	transition: all 0.2s ease 0s;
+}
+.booton2:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: gray;
+}
+
+.bottombooton
+{
+	cursor: pointer;
+	overflow: hidden;
+	position: fixed;
+	display: inline-block;
+	bottom: -4px;
+	left: 75%;
+	z-index: 2147000000;
+}
+
+.bottombooton:hover
+{
+	bottom: 0px
+}
+
+.under
+{
+	height: 36px;
+	position: absolute;
+	bottom: -36px;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	margin: 0 auto;
+	max-width: 970px;
+	padding: 0 13px;
+}
+
+.underbootons
+{
+	position: relative;
+	height: 100%;
+	display: inline-block;
+	padding: 0 11px;
+	line-height: 24pt;
+	font-family: "Roboto", "Helvetica", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: #fff;
+	margin: 0 0 0 5px;
+	float: right;
+	border-radius: 0px 0px 4px 4px;
+	vertical-align: top;
+
+}
+
+.call
+{
+	background-color: #ee7541;
+}
+
+.email
+{
+	background-color: #00b2ee;
 }
