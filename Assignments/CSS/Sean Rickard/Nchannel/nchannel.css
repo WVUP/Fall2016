@@ -47,6 +47,7 @@ ul.main-menu li:hover
 }
 p.body-header
 {
+	margin-top: 0; !important
 	font-family: 'Kreon', serif;
 	text-align: center;
 	font-size: 18px;
@@ -72,4 +73,21 @@ p.body-header
 	margin-left: 235px;
 	color: #FFF;
 	background-color: #ee7541;
+}
+.banner
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width:100%; 
+	background-color: #ee7541;
+	text-align: center;
+	font-family: "Kreon", "Times New Roman", serif;
+	font-size: 250%;
+	color: #FFF;
+	padding:28px 0 30px 0;
+}
+.half
+{
+      display: grid;
 }
