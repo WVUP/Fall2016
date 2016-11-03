@@ -81,6 +81,63 @@ width: 100%
 
 }
 
+.platform-nav2{
+
+height: 40%;
+width: 100%
+
+
+}
+
+
+.support-nav{
+	
+
+
+	height: 600px;
+	width: 100%;
+
+
+
+
+}
+
+.customers-nav{
+		height: 30%;
+		width: 100%;
+
+
+}
+
+
+.customers-nav2{
+		height: 50%;
+		width: 100%;
+
+
+}
+
+
+.customer-nav3{
+	height: 80%;
+	width: 100%;
+
+
+}
+
+
+.image-nav{
+
+	background-color: #f4f4f4;
+	height: 40%;
+	width: 100%;
+}
+.image-nav2{
+
+	background-color: #f4f4f4; 
+	height: 40%;
+	width: 100%;
+}
 
 
 
@@ -111,8 +168,15 @@ width: 100%
 .wordwrap{
 	
 
-	width: 300px;
+	width: 400px;
 	word-wrap: break-word;
+}
+
+.incons{
+
+
+	text-align: center;
+	margin-left: 45px 0 75px 0;
 }
 
 
@@ -131,6 +195,19 @@ h1{
 
 
 p{
+	color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    line-height: 22pt;
+    font-weight: 400;
+    
+    
+
+
+}
+
+p.sell-nav2{
 	color: #FFF;
     text-align: center;
     font-size: 20px;
