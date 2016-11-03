@@ -11,6 +11,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1000000000000;
 }
 
 .logo
@@ -248,4 +249,46 @@ li.spacing
 .bottombooton:hover
 {
 	bottom: 0px
+}
+
+.under
+{
+	height: 36px;
+	position: absolute;
+	bottom: -36px;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10000;
+	margin: 0 auto;
+	max-width: 970px;
+	padding: 0 13px;
+}
+
+.underbootons
+{
+	position: relative;
+	height: 100%;
+	display: inline-block;
+	padding: 0 11px;
+	line-height: 24pt;
+	font-family: "Roboto", "Helvetica", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: #fff;
+	margin: 0 0 0 5px;
+	float: right;
+	border-radius: 0px 0px 4px 4px;
+	vertical-align: top;
+
+}
+
+.call
+{
+	background-color: #ee7541;
+}
+
+.email
+{
+	background-color: #00b2ee;
 }
