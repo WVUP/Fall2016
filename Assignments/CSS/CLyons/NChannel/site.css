@@ -292,3 +292,62 @@ li.spacing
 {
 	background-color: #00b2ee;
 }
+
+.explore
+{
+	background-color: #f4f4f4;
+	padding: 75px 0 0 0;
+	width: 100%;
+}
+
+.exploretext
+{
+	text-align: center;
+	font-family: "Kreon", "times New Roman", serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #6b6b6b;
+	margin: 0 0 35px 0;
+}
+
+.side
+{
+	padding: 0 90px 0 0;
+	width: 40%;
+	position: relative;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+ul.side li
+{
+	cursor: pointer;
+	border: 2px solid #e8e8e8;
+	background-color: white;
+	text-align: center;
+	font-family: "Kreon", "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16pt;
+	color: #6b6b6b;
+	padding: 13px 5px 14px 5px;
+	margin: 21px 0 0 0;
+	position: relative;
+	z-index: 100;
+	border-radius: 5px; 
+}
+
+ul.side li:first-child
+{
+	color: #22b0e6;
+}
+
+.device
+{
+	width: 70%;
+}
+
+.devicealign
+{
+	display: block;
+}
