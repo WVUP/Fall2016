@@ -518,10 +518,10 @@ span {
     overflow: hidden;
     padding: 35px 0 0 0;
 }
-#footerSection quarter padded {
+.footerSection .quarter.padded {
     padding: 0 20px 2px 0;
 }
-#quarter {
+.footerSection #quarter {
     width: 33.33%;
     float: left;
     overflow: hidden;
@@ -529,7 +529,7 @@ span {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-#quarter .h3 {
+.quarter #h3 {
     font-family: "Kreon", "Times New Roman", serif;
     color: #FFF;
     font-size: 20px;
@@ -541,7 +541,7 @@ span {
     text-decoration: none;
     color: inherit;
 }
-#quarter .p {
+.quarter #p {
     margin: -4px 0 0 0;
     color: #FFF;
     font-family: "Roboto", "Helvetica", sans-serif;
@@ -550,7 +550,7 @@ span {
     font-size: 16px;
     max-width: 240px;
 }
-#quarter a .perma {
+.quarter a #perma {
     color: #22b0e6;
     text-decoration: underline;
     font-family: "Roboto", "Helvetica", sans-serif;
@@ -558,7 +558,7 @@ span {
     margin: 10px 0 0 0;
     display: inline-block;
 }
-#quarter .p span {
+.quarter p #span {
     font-family: "Kreon", "Times New Roman", serif;
     font-size: 16px;
     font-weight: 700;
@@ -573,7 +573,7 @@ span {
     padding: 20px 0;
     margin: 35px 0 0 0;
 }
-#quarter .ul {
+.quarter #ul {
     overflow: hidden;
 }
 #ol, ul {
