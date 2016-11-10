@@ -486,3 +486,96 @@ ul.main-menu li:first-child{
     position: relative;
     margin: 0 0 25px 0;
 }
+.logos {
+    text-align: center;
+    padding: 30px 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+wrap {
+    margin: 0 -25px;
+    overflow: hidden;
+}
+span {
+    width: 24%;
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    padding: 25px 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
+footerSection {
+    background-color: #3b3e4b;
+    overflow: hidden;
+    padding: 35px 0 0 0;
+}
+.quarter padded {
+    padding: 0 20px 2px 0;
+}
+.quarter {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.quarter h3 {
+    font-family: "Kreon", "Times New Roman", serif;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 19pt;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.quarter p {
+    margin: -4px 0 0 0;
+    color: #FFF;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    line-height: 18pt;
+    font-size: 16px;
+    max-width: 240px;
+}
+.quarter a .perma {
+    color: #22b0e6;
+    text-decoration: underline;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+.quarter p span {
+    font-family: "Kreon", "Times New Roman", serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6b6e7c;
+}
+copyright {
+    text-align: center;
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: #333643;
+    padding: 20px 0;
+    margin: 35px 0 0 0;
+}
+.quarter ul {
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
