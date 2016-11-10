@@ -1,0 +1,2 @@
+console.log('Bananas');
+console.error('Uh oh =(');
