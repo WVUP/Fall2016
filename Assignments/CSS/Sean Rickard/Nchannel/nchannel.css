@@ -89,5 +89,63 @@ p.body-header
 }
 .half
 {
-      display: grid;
+
+	margin-left: 10%;
+	margin-top: 10%;
+    display: inline-block;
+}
+.text
+{
+	display: inline-block;
+	width: 250px;
+	height:50px;
+}
+.text h2
+{
+	font-family: "Kreon", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19pt;
+    margin: 0 0 3px 0;
+}
+.text h5
+{
+	    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 900;
+    color: #ee7541;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+.text p 
+{
+	    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+    line-height: 18pt;
+    font-size: 16px;
+}
+.support
+{
+	min-height: 500px;
+	background-image: url(https://www.nchannel.com/wp-content/themes/nchannel/images/orange-back.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 115px;
+}
+.textsupport h1
+{
+	text-align: center;
+	    color: #FFF;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 30pt;	
+}
+.textsupport h2
+{
+	text-align: center;
+	    color: #FFF;
+    font-family: "Kreon", "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 30pt;	
 }
