@@ -1,0 +1,317 @@
+html, body, div, h1, h2, h3, h4
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body
+{
+	background-color: #ffffff;
+	line-height: 1;
+	display: block;
+	font-family: 'Kreon';
+}
+
+ol, ul
+{
+	list-style: none;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+hr
+{
+	border-top: 1px solid #333333;
+	border-bottom: none;
+}
+
+.contain
+{
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 20px;
+	position: relative;
+}
+
+.header-section
+{
+	height: 120px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	display: block;
+	z-index: 10000000;
+	width: 100%;
+}
+
+	.header-contact
+	{
+		height: 35px;
+		overflow: hidden;
+		background-color: #3b3e4b;
+	}
+
+	.header-contact a
+	{
+		color: #7f8291;
+	  font-family: "Roboto", "Helvetica", sans-serif;
+	  font-size: 12px;
+	  float: right;
+	  margin-left: 30px;
+	  line-height: 25pt;
+	  position: relative;
+	}
+
+		.header-contact a:hover
+		{
+				color: #ffffff;
+		}
+
+		.header-contact a:after
+		{
+			width: 100%;
+			height: 1px;
+			bottom: 9px;
+			right: 0;
+			left: 0;
+			position: absolute;
+			background-color: #7f8291;
+			opacity: 0.7;
+		}
+
+		.main-nav
+		{
+			position: relative;
+			height: 85px;
+			margin: 0;
+			background-color: #3b3e4b;
+		}
+		
+		.logo
+		{
+			position: absolute;
+			left: 20px;
+			top: 0;
+			height: 100%;
+			width: 155px;
+			
+		}
+
+		.nav
+		{
+			font-family: "Kreon", "Times New Roman", serif;
+    	color: #7f8291;
+    	position: absolute;
+    	right: 10px;
+    	height: 100%;
+    	top: 0px;
+    	list-style-type: none;
+    	display: inline;
+		}
+		
+		.nav li
+		{
+			font-size: 15px;
+			display: table;
+			height: 100%;
+			float: right;
+			padding: 20px 7px;
+		}
+
+		.nav li a
+		{
+			font-weight: 700;
+			vertical-align: middle;
+			display: table-cell;
+			position: relative;
+			padding: 0 10px;
+		}
+
+		.nav a:hover
+		{
+				color: #ffffff;
+		}
+
+		.nav a:after
+		{
+			width: 100%;
+			height: 1px;
+			bottom: 9px;
+			right: 0;
+			left: 0;
+			position: absolute;
+			background-color: #7f8291;
+			opacity: 0.7;
+		}
+
+		.header-under
+		{
+			height: 36px;
+			position: absolute;
+			bottom: -36px;
+			right: 0;
+			left: 0;
+			z-index: 100000;
+			padding: 0 13px;
+		}
+
+			.header-button
+			{
+				position: relative;
+				height: 100%;
+				display: inline-block;
+				padding: 0 11px;
+				line-height: 24pt;
+				font-family: "Roboto", "Helvetica", sans-serif;
+				font-weight: 700;
+				font-style: italic;
+				color: #ffffff;
+				margin: 0 0 0 5px;
+				float: right;
+				overflow: hidden;
+				border-radius: 0px 0px 4px 4px;
+				vertical-align: top;
+			}
+
+			.number
+			{
+				background-color: #ee7541;
+			}
+
+			.email
+			{
+				background-color: #00b2ee;
+			}
+
+			.chat
+			{
+				background-color: #ebad06;
+			}
+
+			.question
+			{
+				color: #7f8291;
+				background-color: #3b3e4b;
+			}
+		
+
+
+.content-section
+{
+
+}
+	.cyan-splash
+	{
+		background-color: #9cdcf2;
+		width: 100%;
+		padding: 120px 0 0 0;
+		height: 583px;
+	}
+
+	.cs-welcome
+	{
+		font-weight: 700;
+		max-width: 660px;
+		margin: 0 auto;
+		text-align: center;
+		z-index: 10;
+		position: relative;
+		padding: 80px 0 130px 0;
+	}
+	
+	.cs-welcome h1
+	{
+		color: #ffffff;
+		font-family: "Kreon", "Times New Roman", serif;
+		font-size: 34px;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+		line-height: 30pt;
+	}
+
+	.cs-welcome p
+	{
+		color: #ffffff;
+		font-weight: 400;
+		font-family: "Kreon", "Times New Roman", serif;
+		font-size: 20px;
+		margin: 15px 0 0 0;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+		line-height: 22pt;	
+		z-index: 10;
+	}
+
+	.cs-con
+	{
+		height: 198px;
+		width: 100%;
+		position: relative;
+		margin: 0 auto;
+		padding: 0 20px;
+		background: url(images/dot-pat.png);
+		background-repeat: repeat;
+		background-position: center center;
+	}
+
+	.cs-img
+	{
+		height: 296px;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		background: url(images/connect.png);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		margin: 0 auto;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+
+	.cs-img img
+	{
+		display: block;
+		height: auto;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.cs-connect
+	{
+
+	}
+
+	.orange-banner
+	{
+		height: 98px;
+		background-color: #ee7541;
+		text-align: center;
+		color: #ffffff;
+		font-family: "Kreon", "Times New Roman", serif;
+		font-size: 34px;
+		line-height: 30pt;
+		display: block;
+	}
+
+	.orange-banner h2
+	{
+		padding: 28px 0 30px 0;
+	}
+
+	.white-features
+	{
+		height: 386px;
+		margin: 50px 0;
+	}
