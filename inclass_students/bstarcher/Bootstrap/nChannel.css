@@ -124,3 +124,10 @@ ul.main-menu li:hover
 -moz-border-radius: 10000px;
 border-radius: 10000px;
 }
+
+.bottom-list:hover
+{
+	color: #7b7e8d;
+	padding: 10px 15px;
+	cursor: pointer;
+}
