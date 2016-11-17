@@ -75,3 +75,59 @@ ul.main-menu li:hover
     -moz-box-shadow: 10px -7px 25px -10px rgba(0,0,0,0.75);
     box-shadow: 10px -7px 25px -10px rgba(0,0,0,0.75);
 }
+
+.banner-box2 
+{
+    width: 47%;
+    float: left;
+    border: 3px solid white;
+    text-align: left;
+    margin: 0 1.5%;
+    padding: 15px 20px 16px 20px;
+    min-height: 120px;
+    position: relative;
+    border-radius: 0px 15px 0px 15px
+}
+
+.banner-box
+{
+	border: 3px solid white;
+	z-index: 99 !important;
+}
+
+.quote 
+{
+	width: 25%;
+    background-image: url(images/quote.png);
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    background-color: #22b0e6;
+    padding: 28px 30px 31px 35px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.curve 
+{
+	content: '';
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    display: block;
+    border-right: 45px solid #22b0e6;
+    border-bottom: 40px solid white
+}
+
+.special-box
+{
+-webkit-border-radius: 10000px;
+-moz-border-radius: 10000px;
+border-radius: 10000px;
+}
+
+.bottom-list:hover
+{
+	color: #7b7e8d;
+	padding: 10px 15px;
+	cursor: pointer;
+}
