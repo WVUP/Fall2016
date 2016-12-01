@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anouncements</title>
+  </head>
+  <body>
+    <div id="NavBar">
+
+    </div>
+    <div id="Sidebar">
+
+    </div>
+    <div id="Messages">
+
+    </div>
+    <div id="Main_Panel">
+
+    </div>
+  </body>
+</html>
