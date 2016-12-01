@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.hide{ display:none; }
+	</style>
+</head>
+<body>
+
+<button id="btn_edit">
+	Edit
+</button>
+
+<button id="btn_preview">
+	Preview
+</button>
+
+<br><br><br>
+
+	<div style="background: blue" id="edit_mode">
+		<form id="myForm" name="myForm">
+			<label for="title">Title</label>
+			<input type="text" name="title" placeholder="Enter title..." id="title">
+
+			<br>
+			<label for="desc">Desc</label>
+			<input type="text" id="desc" name="desc" placeholder="Please type...Please">
+		</form>
+		
+		<button onclick="test()">Preview</button>
+
+	</div>
+	<div id="preview" class="hide" style="background: red"></div>
+
+<script src="projectwhiteboardJS.js"></script>	
+</body>
+</html>
