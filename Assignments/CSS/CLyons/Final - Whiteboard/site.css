@@ -1,0 +1,18 @@
+.header 
+{
+	background-color: #5B9BD5;
+	margin: 0.7% 0.8%;
+	padding: 0.3% 1.5%;
+}
+
+.whiteboardicon
+{
+	color: white;
+	margin: 15px 0;
+}
+
+.leftbox
+{
+	padding-left: 1.7%;
+	border: solid;
+}
