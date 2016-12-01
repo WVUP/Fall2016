@@ -31,7 +31,7 @@ var ele = document.getElementById('test');
 var colors = ['blue', 'red', 'green'];
 var html = '';
 debugger;
-for(var i = 0;i < colors.length;i++){
+for(var i = 0, len = colors.length;i < len;i++){
 	var c = colors[i];
 	html += '<p style="color:' + c + '";>'+ c + '</p>'
 
