@@ -1,0 +1,98 @@
+#html
+{
+    background-image: "whiteboard_background.png";
+}
+
+.main-nav
+{
+	background-color: #5B9BD5;
+	margin: 0.7% 0.8%;
+	padding: 0.3% 1.5%;
+    color: white;
+    text-align:right;
+    width: 100% !important;
+}
+ul.main-menu
+{
+    margin-bottom:0;
+    margin-left:0;
+}
+ul.main-menu li:first-child{
+    float:left;
+    background-color: #5B9BD5;
+    color:white;
+}
+ul.main-menu > li
+{
+ color:black;
+ padding: 5px 10px;
+ cursor:pointer;
+ text-align: right;
+ margin: 10px 0;
+
+}
+.sidebar_icon{
+    background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
+
+}
+.main-menu li:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+tr {
+  white-space: nowrap;
+}
+
+tr, td {
+
+  list-style: none;
+  display: inline;
+    padding:50px;
+}
+
+.whiteboardIcon
+{
+	color: white;
+	margin: 15px 0;
+    background-image:"Printing-Marker-Pen-icon.png";
+}
+
+.leftbox
+{
+    padding-left: 10px;
+	border: solid;
+    font-family: "fontawesome";
+    margin: 10px 0;
+}
+.btn
+{
+    overflow:hidden;
+    float:right;
+    margin:0;
+    padding-left:20px;
+    color:white;
+    background-color:#5B9BD5;
+
+}
+.midbox
+{
+    border: solid;
+    font-family: "fontawesome";
+    
+}
+#midbox .btn{
+    border: solid;
+    background-color:white;
+    color:black;
+}
+#midbox ul { 
+    list-style-type: none 
+}
+#midbox li:before { 
+    content:"- "; 
+    color: black; 
+    font-size: 25px; 
+}
