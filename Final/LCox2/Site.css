@@ -1,6 +1,6 @@
 #html
 {
-    background-image: "whiteboard_background.png";
+    background-image:"whiteboard_background.png";
 }
 
 .main-nav
@@ -31,13 +31,9 @@ ul.main-menu > li
  margin: 10px 0;
 
 }
-.sidebar_icon{
-    background:url(http://www.wvup.edu/wp-content/gallery/sidebar-icons/icon-default.png) 0 0 no-repeat;
-
-}
 .main-menu li:hover{
-    background-color: cadetblue;
-    color: white;
+    background-color: lightcyan;
+    color: black;
 }
 .no-wrap {
     white-space: nowrap;
@@ -66,6 +62,15 @@ tr, td {
 	border: solid;
     font-family: "fontawesome";
     margin: 10px 0;
+}
+ul.leftbox > li
+{
+ color:black;
+ padding: 5px 10px;
+ cursor:pointer;
+ text-align: right;
+ margin: 10px 0;
+
 }
 .btn
 {
