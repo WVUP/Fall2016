@@ -37,90 +37,55 @@
             </div>
         </div>
     </div>
-        </div>
         <div class="row">
             <div class="col-xs-2 leftbox">
                 <h4>CS - 129 - 1</h4>
                 <ul class="list-unstyled list-inline">
                     <li class="fa fa-bullhorn">
-                        <a href="HomePage.html">Announcements
+                        <a href="HomePage.html">
+                        Announcements
                         </a>
                     </li>
                     <li class="fa fa-book">
-                        <a href="Assignments.html">Assignment
-                        </a>
-                    </li>
+                        <a href="Assignments.html">
+                        Assignment
+                        </a></li>
                     <li class="fa fa-check-square-o">
-                        <a href="Results.html">Results
+                        <a href="Results.html">
+                        Results
                         </a>
                     </li>
                     <li class="fa fa-wrench">Help</li>
                 </ul>
             </div>
             <div class="btn">
-                Inbox: 15 new Messages
+                Inbox: 16 new Messages
             </div>
             <div class="col-xs-9 midbox">
                 <div class="container">
-                    <h3 style="text-decoration:underline">
-                        Recent Activity
-                    </h3>
-                    <h4>
-                        <span style="color: red; text-decoration:underline">Assignment 3.4</span> due 12/1/16 - 4:30pm
-                        <div class="btn">
-                            View Submissions
-                        </div>
-                    </h4>
-                </div>
-                <div class="container">
-                    <h3 style="text-decoration:underline">
-                        Announcements
-                    </h3>
-                    <h4>
-                        Posted on Wednesday, November 31, 2016 7:35pm EST
-                    </h4>
-                    <h4>
-                        Be sure to include a set of links in the discussion forum when posting.
-                    </h4>
-                    <ul class="list-unstyled list-inline" style="float:right">
-                        <li>
-                        <div class="btn">
-                            Create Thread
-                        </div>
-                        </li>
-                        <li>
-                        <div class="btn">
-                            Expand
-                        </div>
-                        </li>
-                        <li>
-                        <div class="btn">
-                            Edit
-                        </div>
-                        </li>
-                        <li>
-                        <div class="btn">
-                            Delete
-                        </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="container">
-                    <h3 style="text-decoration:underline">
-                        Discussion
-                    </h3>
-                    <ul>
-                        <li> No new discussions </li>
-                    </ul>
-                </div>
-                <div class="container">
+                    <h2>New Assignment</h2>
+                    <form method="POST" action="mailto:depressedbananatm@gmail.com">
+                        <label for="title">Title: </label>
+                        <input type="text" id="title" placeholder="Enter Title.">
+                        
+                        <br /><br />
+                        <label for="mytext">Description: </label>
+                        <textarea name="txt" id="mytext" cols="30" rows="1"> </textarea>
+                        <br /><br />
+                        <label for="birthday">Due Date: </label>
+                        <input type="date" name="birthday">
+                        <br /><br />
+                        
+                        <input type="button" value="Submit" onclick="alert('Submitted')" style="float:right">
+                                </div>
+            <div class="container">
                     <div class="btn" style="float:left">
                         wB
                         <img src="Printing-Marker-Pen-icon.png" height="42" width="42">
                     </div>
-                </div>
             </div>
         </div>
+            
     </body>
 
 </html>

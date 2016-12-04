@@ -68,9 +68,12 @@ ul.leftbox > li
  color:black;
  padding: 5px 10px;
  cursor:pointer;
- text-align: right;
  margin: 10px 0;
 
+}
+.leftbox li:hover{
+    background-color: lightcyan;
+    color: black;
 }
 .btn
 {
@@ -100,4 +103,35 @@ ul.leftbox > li
     content:"- "; 
     color: black; 
     font-size: 25px; 
+}
+a:link    {
+color:black; 
+background-color:transparent; 
+text-decoration:none
+}
+
+a:visited 
+{
+color:black;
+background-color:transparent;
+text-decoration:none
+}
+#wrapper {
+  width:1000px;
+  clear:both;
+}
+#first {
+  display:table-cell;
+  width:200px;
+  float:center;
+}
+#second {
+  display:table-cell;
+  width:100px;
+  float:center;
+}
+#third {
+  display:table-cell;
+  width:25px;
+  float:center;
 }
