@@ -1,0 +1,14 @@
+.NavBar
+{
+	background-color: rgb(91, 155, 213);
+  background-position: bottom;
+  color: black;
+  text-align:right;
+  width: 90%;
+  height: 75px !important;
+  margin: 1% 5% 5% 5%;
+  padding-left: 50px;
+  padding-top: 20px;
+  border-style: groove;
+  border-color: rgb(46, 117, 182);
+}
