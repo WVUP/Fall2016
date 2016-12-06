@@ -1,6 +1,6 @@
 body
 {
-	background-image: url('images/whiteboard_background.png');	
+	background-image: url('images/background.png');	
 }
 ul.topnav
 {
@@ -59,9 +59,20 @@ h1
 	border: 1px solid black;
 	width: 1000px;
 	height: 500px;
+	background-image: url(images/wb.png);
+	background-repeat: no-repeat; 
+	background-position: 50px 400px;
 }
 .main p 
 {
 	padding-left: 30px;
 	text-align: left;
+}
+.assignments ul
+{
+	list-style-image: url(images/bookthing.png);
+}
+.inline
+{
+	display: inline-block;
 }
