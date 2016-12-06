@@ -1,6 +1,7 @@
-#html
+body
 {
     background-image:"whiteboard_background.png";
+    background: url("whiteboard_background.png") repeat 0 0; 
 }
 
 .main-nav
