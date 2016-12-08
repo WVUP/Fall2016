@@ -1,0 +1,230 @@
+.header 
+{
+	background-color: #5B9BD5;
+	margin: 0.7% 0.8%;
+	padding: 0.1% 1% 0.6%;
+	border: solid;
+	border-width: 1px;
+	border-color: #41719C;
+}
+
+.leftbox
+{
+	border: solid;
+	border-width: 1px;
+	border-color: #41719C;
+	margin-left: 1.5%;
+	width: 210px !important;
+	background-color: white;
+}
+
+.rightbox
+{
+	border: solid;
+	border-width: 1px;
+	border-color: #41719C;
+	margin-left: 0.75%;
+	margin-top: 0.5%;
+	font-family: 'Calibri';
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+}
+
+ul.icon
+{
+	padding-left:20px;
+	list-style:none;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+li
+{
+	margin-bottom:10px;
+	font-family: 'Calibri';
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li:before
+{    
+    font-family: 'FontAwesome';
+    content: '\f2bb';
+    margin:0 20px 0 -15px;
+}
+
+ul.icon li.megaphone:before
+{
+	content: '\f0a1';
+}
+
+ul.icon li.book:before
+{
+	content: '\f02d';
+}
+
+ul.icon li.check:before
+{
+	content: '\f046';
+}
+
+ul.icon li.wrench:before
+{
+	content: '\f0ad';
+}
+
+.logo
+{
+	width: 155px;
+	height: 40px;
+}
+
+.tabheader
+{
+	margin: 10% 23% 10%;
+	font-family: 'Calibri';
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.headericons
+{
+	display: inline;
+	padding: 0 1%;
+}
+
+.headercontainer
+{
+	text-align: right;
+	margin-top: -1.6%;
+}
+
+.inbox
+{
+	border: solid;
+	width: 16%;
+	margin-left: 72%;
+	margin-top: 1%;
+	background-color: #5B9BD5;
+	border-color: #41719c;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Calibri';
+	font-size: 18px;
+	padding: 0 1%;
+	text-align: center;
+	border-width: 1px;
+}
+
+hr.thick
+{
+	border-top: 2px solid black;
+}
+
+.tablenotbootstrap
+{
+	padding: 0 20% 0 0;
+	width: 20%
+}
+
+.contentbuttons
+{
+	display: inline;
+	border: solid;
+	border-width: 1px;
+	background-color: #5B9BD5;
+	color: white;
+	margin: 0 1%;
+	padding: 0 2%;
+	border-radius: 5px;
+	border-color: #41719c;
+}
+
+.submissionsbutton
+{
+	margin: -3% 0 0 79.3%;
+	border: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	text-align: center;
+	border-color: #41719c;
+}
+
+.buttonlogo
+{
+	padding: 1.5% 0.2%;
+	width: 7%;
+}
+
+body
+{
+	background-image: url("whiteboard_background.png");
+}
+
+.bookylist
+{
+	margin-bottom: 0;
+}
+
+.secondarybookylist
+{
+	margin-left: 10%;
+	margin-top: -21.5%;
+	list-style-type: none;
+}
+
+.secondarybookybooklist
+{
+	margin-bottom: 0;
+	color: red;
+}
+
+.tertiarybookylist
+{
+	margin-top: -20.5%;
+	margin-left: 28%;
+	list-style-type: none;
+}
+
+.tertiarybookybooklist
+{
+	margin-bottom: 0;
+}
+
+.creationbutton
+{
+	padding: 0.4% 1.5%;
+}
+
+.titlebox
+{
+	margin: 1% 6%;
+	width: 65%;
+	border-radius: 5px;
+}
+
+.descriptionbox
+{
+	width: 65%;
+	margin: 1% 2.35%;
+	line-height: 10;
+	border-radius: 25px;
+}
+
+input
+{
+	border-color: #41719c;
+	border-width: 1px;
+}
+
+.dateheaders
+{
+	display: inline;
+	padding-left: 1%;
+}
+
+.lastbuttonpadding
+{
+	padding: 1% 2%;
+}
