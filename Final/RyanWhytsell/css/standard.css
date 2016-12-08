@@ -1,0 +1,86 @@
+.NavBar
+{
+	background-color: rgb(91, 155, 213);
+  background-position: bottom;
+  background-repeat: round;
+  color: black;
+  text-align:right;
+  width: 90%;
+  height: 27% !important;
+  margin: 1% 5% 1% 5%;
+  padding-left: 50px;
+  padding-top: 20px;
+  border-style: groove;
+  border-color: rgb(46, 117, 182);
+}
+
+.SideNav
+{
+  height: 75% !important;
+	border-style: groove;
+	border-color: rgb(46, 117, 182);
+	background-color: white;
+	text-align: left;
+	left: 5%;
+	font-size: 25px;
+
+}
+
+#SideBar li
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0px;
+}
+
+.Messages
+{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+	background-color: rgb(91, 155, 213);
+	border-style: groove;
+	border-color: rgb(46, 117, 182);
+	border-radius: 15px;
+	width: 300px;
+	height: 40px;
+	right: 5px;
+	float: right;
+}
+
+.block
+{
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+	height: 60px;
+}
+
+
+.Main
+{
+	background-color: white;
+	border-style: groove;
+	border-color: black;
+}
+
+.NewBtn
+{
+	position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.AInput
+{
+	border-style: groove;
+	border-color: rgb(46, 117, 182);
+	border-radius: 10px;
+	margin-left: 100px;
+	width: 500px;
+}

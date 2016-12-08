@@ -1,0 +1,71 @@
+body{
+	background-image: url("https://github.com/WVUP/Fall2016/blob/master/Assignments/CSS/BrandonLWharton/assignment%204/pics/whiteboard_background.png?raw=true");
+
+}
+
+
+label{
+
+
+	width: 120px;
+}
+
+.menu-nav{
+	height: 40%;
+	width: 15%;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 15px;
+	background-color: white;
+	border-style: solid;
+	border-color: blue;
+
+
+}
+.icons{
+height: 5%;
+width: 60%;
+
+
+
+}
+
+.box{
+	border: 1px solid blue;
+	height: 10%;
+	width: 10%;
+	background-color: blue;
+	text-align: center;
+	font-size: 16px;
+	
+
+
+}
+
+.side-nav{
+	height: 70%;
+	width: 70%;
+	background-color: white;
+	float: right;
+	margin-right: 11%;
+	margin-top: 5px;
+	border-style: solid;
+	border-color: blue;
+	position: relative;
+
+}
+
+.top-nav{
+
+	height: 10%;
+	width: 95%;
+	background-color: #5B9BD5;
+	position: center;
+	margin-top: 20px;
+}
+
+
+.top-nav li{
+
+	font-size: 18px;
+}
