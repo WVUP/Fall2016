@@ -1,0 +1,54 @@
+.Navbar
+{
+	background-color: #5B9BD5;
+    background-position: bottom;
+    background-repeat: round;
+    color: black;
+    text-align:right;
+    width: 90%;
+    height: 27% !important;
+    margin: 1% 5% 1% 5%;
+    padding-left: 50px;
+    padding-top: 20px;
+    border-style: groove;
+    border-color: #5B9BD5;
+	
+}
+.SideNav
+{
+	height: 75% !important;
+	border-style: groove;
+	border-color: #5B9BD5;
+	background-color: white;
+	text-align: left;
+	left: 5%;
+	font-size: 25px;
+}
+.Messages
+{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+	background-color: #5B9BD5;
+	border-style: groove;
+	border-color: #5B9BD5;
+	border-radius: 15px;
+	width: 300px;
+	height: 40px;
+	right: 5px;
+	float: right;
+}
+.box
+{
+	background-color: white;
+	border-style: groove;
+	border-color: #5B9BD5;
+}
+.chart
+{
+	border-style: inset;
+	border-color: #5B9BD5;
+	border-radius: 5px;
+	margin-left: 100px;
+	width: 450px;
+}
