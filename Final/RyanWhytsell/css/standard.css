@@ -75,3 +75,12 @@
 
   z-index: 1;
 }
+
+.AInput
+{
+	border-style: groove;
+	border-color: rgb(46, 117, 182);
+	border-radius: 10px;
+	margin-left: 100px;
+	width: 500px;
+}
